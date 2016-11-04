@@ -15,6 +15,9 @@ Version: 1.0.0
 
 
 /*BODY*/
+body {
+background-color: red;
+}
 
 /*NAV*/
 /*Sets nav bg to transparent white */
