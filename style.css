@@ -14,7 +14,7 @@ Version: 1.0.0
 /*GLOBAL*/
 /* Adds red focus indicator to everything for accessibility*/
 *:focus {
-	border: solid 5px #FF5A59;
+	border: dotted 1px #FF5A59;
 }
 
 
@@ -79,8 +79,14 @@ footer a:active {
 	color: #FF5A59 !important;
 }
 
+footer a:focus {
+	color: #FF5A59 !important;
+	text-decoration: none;
+}
+
 footer a:hover {
 	color: #FF5A59;
+	text-decoration: none;
 }
 
 footer h5 {
