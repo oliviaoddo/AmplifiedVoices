@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Theme: Anaglyph Lite Child
+http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com/anaglyph-lite-child/
+Authors: Seth Perlstein, Olivia Oddo, Elena Tsoi, Ming-tse Chen, Alexandre Morand, Rene Neumann
+Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
+Template: anaglyph-lite
+Version: 1.0.0
+*/
+
+/*HEADER*/
+
+
+
+/*BODY*/
+
+/*NAV*/
+/*Sets nav bg to transparent white */
+.navigation-wrapper {
+ background-color: rgba(255, 255, 255, .5) !important;
+}
+
+/* Removes red/yellow borders */
+.navigation nav a:after, .navigation nav a:before {
+ display: none !important;
+}
+
+/* Bolds text on hover */
+.navigation nav a:hover {
+ font-weight: 900 !important;
+}
+
+/* Attempts to change display of nav from inline to block */
+.navigation li {
+ display: block !important;
+}
+
+/* Changes the bg color of Donate button */
+.donate-button {
+ width: auto;
+ height: auto;
+ background: rgb(255, 90, 89) !important;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ color: white !important;
+}
+
+/* Changes donate button's text color on hover */
+.donate-button a:hover {
+ color: #fff !important;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #3F3994;
+	color: white;
+}
+
+footer .row {
+	padding: 30px;
+}
+
+footer p {
+	color: white;
+}
+
+footer a {
+	color: white;	
+}
+
+footer a:hover {
+	color: #FF5A59;
+}
+
+.col-sm-12 col-md-6 left {
+	text-align: left;	
+}
+
+.col-sm-12 col-md-6 right {
+	text-align: right;	
+}
+
+.col-xs-12 copyright {
+	vertical-align: text-bottom;
+	font-size: 75%;
+}
+
+.footer-AV-logo {
+	float: right;
+}
