@@ -10,11 +10,13 @@ Template: anaglyph-lite
 Version: 1.0.0
 */
 
+
 /*GLOBAL*/
 /* Adds red focus indicator to everything for accessibility*/
 *:focus {
 	border: solid 5px #FF5A59;
 }
+
 
 /*HEADER*/
 
@@ -31,11 +33,6 @@ Version: 1.0.0
 /* Bolds text on hover */
 .navigation nav a:hover {
  font-weight: 900 !important;
-}
-
-/* Attempts to change display of nav from inline to block */
-.navigation li {
- display: block !important;
 }
 
 /* Changes the bg color of Donate button */
