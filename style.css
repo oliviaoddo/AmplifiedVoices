@@ -11,7 +11,7 @@ Version: 1.0.0
 */
 
 /*HEADER*/
-
+This is a test
 
 
 /*BODY*/
@@ -72,7 +72,7 @@ footer p {
 }
 
 footer a {
-	color: white;	
+	color: white;
 }
 
 footer a:hover {
@@ -80,11 +80,11 @@ footer a:hover {
 }
 
 .col-sm-12 col-md-6 left {
-	text-align: left;	
+	text-align: left;
 }
 
 .col-sm-12 col-md-6 right {
-	text-align: right;	
+	text-align: right;
 }
 
 .col-xs-12 copyright {
