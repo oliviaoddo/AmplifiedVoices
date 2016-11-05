@@ -57,8 +57,38 @@ background-color: red;
 }
 
 .quote {
-	color: rgb(83, 129, 88  );
+	color: #a03594;
 }
+
+.bioName {
+	color: #a03594;
+	display: inline;
+	float: left;
+}
+
+.bioTitle { 
+	color: #a03594;
+	display: inline;
+	float: right;
+	font-style: italic;
+ }
+
+ .bioDescription{
+ 	color: #a03594;
+ }
+
+ .aboutBackground {
+ 	background-color: #a03594;
+ }
+
+ .aboutTitle{
+ 	color: #ffffff;
+ }
+
+ .aboutDesc{
+ 	color: #ffffff;
+ }
+
 
 /*FOOTER*/
 footer {
