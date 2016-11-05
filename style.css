@@ -17,6 +17,20 @@ Version: 1.0.0
 	border: dotted 1px #FF5A59;
 }
 
+.site .skip-link {
+    display: none;
+} 
+
+.gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
+	margin-top: 0px !important;
+}
+ 
+#skip a:focus 
+{ 
+position:static; 
+width:auto; 
+height:auto; 
+}
 
 /*HEADER*/
 
@@ -60,7 +74,7 @@ Version: 1.0.0
 	display: inline;
 }
 
-.bioTitle { 
+.bioTitle {
 	color: #a03594;
 	display: inline;
 	font-style: italic;
@@ -104,8 +118,14 @@ section.block {
 	padding: 0;
 }
 
-.title { 
+.title {
 	display: none;
+ }
+
+ img .fullWidth{
+ 	width: 100% !important;
+ 	position: absolute;
+ 	top: -100px;
  }
 
  .container{
@@ -121,29 +141,10 @@ section.block {
  	padding-bottom: 40px;
  }
 
-h4 .quoteBottom {
- 	font-style: italic !important;
+ h4 .quoteBottom{
+ 	font-style: italic;
  }
 
- .top{ 
-   position: absolute; 
-   top: 200px; 
-   left: 100px; 
-   width: 25%; 
-   color: #a03594;
-}
-
-.bottom h4 { 
-   position: absolute; 
-   top: 400px; 
-   left: 100px; 
-   width: 25%; 
-   color: #a03594;
-}
-
-p span { 
-	font-style: italic;
- }
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
