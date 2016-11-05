@@ -100,8 +100,8 @@ Version: 1.0.0
 	color: #ff5a59;
 }
 
-#aboutPhoto{
-	width: 100%;
+.fullWidthPhoto{
+	width: 100% !important;
 }
 
 section.block {
