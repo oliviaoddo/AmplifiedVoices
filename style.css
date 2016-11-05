@@ -19,20 +19,26 @@ Version: 1.0.0
 
 .site .skip-link {
     display: none;
-} 
+}
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
 	margin-top: 0px !important;
 }
- 
-#skip a:focus 
-{ 
-position:static; 
-width:auto; 
-height:auto; 
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
 }
 
 /*HEADER*/
+
+/* Sets logo width and height */
+a.navbar-brand > img {
+  width: 252px !important;
+	height: 72px !important;
+}
 
 /*Sets nav bg to transparent white */
 .primary-navigation {
