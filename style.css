@@ -110,12 +110,6 @@ section.block {
 	display: none;
  }
 
- img .fullWidth{
- 	width: 100% !important;
- 	position: absolute;
- 	top: -100px;
- }
-
  .container{
  	margin: 0 !important;
  	padding: 0 !important;
@@ -129,10 +123,29 @@ section.block {
  	padding-bottom: 40px;
  }
 
- h4 .quoteBottom{
- 	font-style: italic;
+h4 .quoteBottom {
+ 	font-style: italic !important;
  }
 
+ .top{ 
+   position: absolute; 
+   top: 200px; 
+   left: 100px; 
+   width: 25%; 
+   color: #a03594;
+}
+
+.bottom h4 { 
+   position: absolute; 
+   top: 400px; 
+   left: 100px; 
+   width: 25%; 
+   color: #a03594;
+}
+
+p span { 
+	font-style: italic;
+ }
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
