@@ -56,6 +56,9 @@ body {
 background-color: red;
 }
 
+.quote {
+	color: rgb(83, 129, 88  );
+}
 
 /*FOOTER*/
 footer {
