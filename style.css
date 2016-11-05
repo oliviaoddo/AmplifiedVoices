@@ -17,12 +17,40 @@ Version: 1.0.0
 	border: dotted 1px #FF5A59;
 }
 
+.site .skip-link {
+    display: none;
+}
+
+.gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
+	margin-top: 0px !important;
+}
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
 
 /*HEADER*/
 
+/* Sets logo width and height */
+a.navbar-brand > img {
+  	width: 175px !important;
+	height: 50px !important;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: -10px;
+}
+
 /*Sets nav bg to transparent white */
 .primary-navigation {
- background-color: rgba(255, 255, 255, .5) !important;
+ background-color: rgba(255, 255, 255, .7) !important;
+}
+
+/* Changes the color of nav items */
+#menu-av-menu > li > a {
+	color: rgb(160, 53,148);
 }
 
 /* Removes red/yellow borders */
@@ -30,26 +58,29 @@ Version: 1.0.0
  display: none !important;
 }
 
-/* Bolds text on hover */
-.navigation nav a:hover {
+/* Changes the nav items font weight and color on hover */
+#menu-av-menu > li > a:hover, #menu-av-menu > li.current-menu-item > a{
+ color: rgb(255, 90, 89) !important;
  font-weight: 900 !important;
 }
 
 /* Changes the bg color of Donate button */
-.donate-button {
+.donate-button > a {
  width: auto;
  height: auto;
  background: rgb(255, 90, 89) !important;
- color: white !important;
 }
 
 /* Changes donate button's text color on hover */
-.donate-button a:hover {
- color: #fff !important;
+#menu-av-menu > li.donate-button > a:hover {
+	color: #fff !important;
 }
 
 
 /*BODY*/
+#main {
+	padding-top: 0px;
+}
 
 .quote {
 	color: #a03594;
@@ -60,7 +91,7 @@ Version: 1.0.0
 	display: inline;
 }
 
-.bioTitle { 
+.bioTitle {
 	color: #a03594;
 	display: inline;
 	font-style: italic;
@@ -104,8 +135,18 @@ section.block {
 	padding: 0;
 }
 
-.title { 
+.title {
 	display: none;
+ }
+
+ img .fullWidth{
+ 	width: 100% !important;
+ 	position: absolute;
+ 	top: -100px;
+ }
+
+ img.aligncenter {
+ 	margin: 0px;
  }
 
  .container{
