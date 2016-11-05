@@ -56,8 +56,9 @@ a.navbar-brand > img {
  display: none !important;
 }
 
-/* Bolds text on hover */
-.navigation nav a:hover {
+/* Changes the nav items font weight and color on hover */
+#menu-av-menu > li > a:hover {
+ color: rgb(255, 90, 89) !important;
  font-weight: 900 !important;
 }
 
@@ -66,12 +67,11 @@ a.navbar-brand > img {
  width: auto;
  height: auto;
  background: rgb(255, 90, 89) !important;
- color: white !important;
 }
 
 /* Changes donate button's text color on hover */
 .donate-button a:hover {
- color: #fff !important;
+	color: #fff !important;
 }
 
 
