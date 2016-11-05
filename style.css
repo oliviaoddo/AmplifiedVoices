@@ -21,7 +21,7 @@ Version: 1.0.0
 /*HEADER*/
 
 /*Sets nav bg to transparent white */
-.navbar-header .primary-navigation {
+.primary-navigation {
  background-color: rgba(255, 255, 255, .5) !important;
 }
 
