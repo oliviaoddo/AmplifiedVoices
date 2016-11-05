@@ -65,14 +65,14 @@ a.navbar-brand > img {
 }
 
 /* Changes the bg color of Donate button */
-.donate-button {
+.donate-button > a{
  width: auto;
  height: auto;
  background: rgb(255, 90, 89) !important;
 }
 
 /* Changes donate button's text color on hover */
-.donate-button a:hover {
+.donate-button > a:hover {
 	color: #fff !important;
 }
 
