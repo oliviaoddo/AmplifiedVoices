@@ -77,6 +77,7 @@ Version: 1.0.0
  #aboutBackground {
  	background-color: #a03594;
  	width: 100%;
+ 	padding: 0;
  }
 
  .aboutTitle{
@@ -97,6 +98,14 @@ Version: 1.0.0
 
 #aboutPhoto{
 	width: 100%;
+}
+
+section.block {
+  padding: 0;
+}
+
+.sub-page .block {
+	padding: 0;
 }
 
 /*FOOTER*/
