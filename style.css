@@ -112,6 +112,10 @@ section.block {
 	padding: 0;
 }
 
+.title { 
+	display: none;
+ }
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
