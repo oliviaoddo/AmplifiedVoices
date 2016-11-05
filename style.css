@@ -166,6 +166,26 @@ section.block {
  	font-style: italic;
  }
 
+ .top{ 
+   position: absolute; 
+   top: 200px; 
+   left: 100px; 
+   width: 25%; 
+   color: #a03594;
+}
+
+.bottom h4 { 
+   position: absolute; 
+   top: 400px; 
+   left: 100px; 
+   width: 25%; 
+   color: #a03594;
+}
+
+p span { 
+font-style: italic;
+ }
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
