@@ -17,6 +17,20 @@ Version: 1.0.0
 	border: dotted 1px #FF5A59;
 }
 
+.site .skip-link {
+    display: none;
+} 
+
+.gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
+	margin-top: 0px !important;
+}
+ 
+#skip a:focus 
+{ 
+position:static; 
+width:auto; 
+height:auto; 
+}
 
 /*HEADER*/
 
