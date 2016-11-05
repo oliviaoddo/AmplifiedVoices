@@ -32,6 +32,7 @@ width:auto;
 height:auto;
 }
 
+
 /*HEADER*/
 
 /* Sets logo width and height */
@@ -70,6 +71,9 @@ a.navbar-brand > img {
 
 
 /*BODY*/
+#main {
+	padding-top: 0px;
+}
 
 .quote {
 	color: #a03594;
@@ -132,6 +136,10 @@ section.block {
  	width: 100% !important;
  	position: absolute;
  	top: -100px;
+ }
+ 
+ img.aligncenter {
+ 	margin: 0px;
  }
 
  .container{
