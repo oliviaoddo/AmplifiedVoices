@@ -19,6 +19,7 @@ Version: 1.0.0
 
 .site .skip-link {
     display: none;
+} 
 }
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
@@ -31,7 +32,6 @@ position:static;
 width:auto;
 height:auto;
 }
-
 
 /*HEADER*/
 
@@ -162,29 +162,10 @@ section.block {
  	padding-bottom: 40px;
  }
 
-h4 .quoteBottom {
- 	font-style: italic !important;
+ h4 .quoteBottom{
+ 	font-style: italic;
  }
 
- .top{ 
-   position: absolute; 
-   top: 200px; 
-   left: 100px; 
-   width: 25%; 
-   color: #a03594;
-}
-
-.bottom h4 { 
-   position: absolute; 
-   top: 400px; 
-   left: 100px; 
-   width: 25%; 
-   color: #a03594;
-}
-
-p span { 
-	font-style: italic;
- }
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
