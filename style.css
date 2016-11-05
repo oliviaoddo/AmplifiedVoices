@@ -74,8 +74,9 @@ Version: 1.0.0
  	color: #a03594;
  }
 
- .aboutBackground {
+ #aboutBackground {
  	background-color: #a03594;
+ 	width: 100%;
  }
 
  .aboutTitle{
@@ -86,6 +87,17 @@ Version: 1.0.0
  	color: #ffffff;
  }
 
+ .example {
+ 	color: #ffffff;
+ }
+
+.quoteBottom{
+	color: #ff5a59;
+}
+
+#aboutPhoto{
+	width: 100%;
+}
 
 /*FOOTER*/
 footer {
