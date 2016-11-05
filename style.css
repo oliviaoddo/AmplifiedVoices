@@ -21,7 +21,7 @@ Version: 1.0.0
 /*HEADER*/
 
 /*Sets nav bg to transparent white */
-.navigation-wrapper {
+.primary-navigation {
  background-color: rgba(255, 255, 255, .5) !important;
 }
 
@@ -40,8 +40,6 @@ Version: 1.0.0
  width: auto;
  height: auto;
  background: rgb(255, 90, 89) !important;
- -moz-border-radius: 6px;
- border-radius: 6px;
  color: white !important;
 }
 
@@ -209,7 +207,7 @@ footer h5 {
 footer .social-logo {
 	background-color: white;
 	}
-	
+
 footer .social-logo:hover {
 	background-color: #FF5A59;
 	}
