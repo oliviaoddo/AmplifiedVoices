@@ -46,6 +46,11 @@ a.navbar-brand > img {
  background-color: rgba(255, 255, 255, .5) !important;
 }
 
+/* Changes the	 color of nav items */
+#menu-nav > li > a {
+	color: rgb(160, 53,148);
+}
+
 /* Removes red/yellow borders */
 .navigation nav a:after, .navigation nav a:before {
  display: none !important;
@@ -137,7 +142,7 @@ section.block {
  	position: absolute;
  	top: -100px;
  }
- 
+
  img.aligncenter {
  	margin: 0px;
  }
