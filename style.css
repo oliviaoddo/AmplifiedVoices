@@ -46,8 +46,8 @@ a.navbar-brand > img {
  background-color: rgba(255, 255, 255, .5) !important;
 }
 
-/* Changes the	 color of nav items */
-#menu-nav > li > a {
+/* Changes the color of nav items */
+#menu-av-menu > li > a {
 	color: rgb(160, 53,148);
 }
 
