@@ -198,12 +198,11 @@ button .theFacts {
 	background-color: #ff5a59;
 }
 
-.resourcesBackground{
-	background-color: #ff5a59;
+.resourcesBackground {
+    color: white;
 }
-
-h2, h6, h4 .resourcesBackground {
-	color: #ffffff;
+.resourcesBackground {
+    background-color: #000000;
 }
 
 /*FOOTER*/
