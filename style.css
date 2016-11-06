@@ -225,7 +225,10 @@ button .theFacts {
 .getInvolvedContainer {
     background-color: #ff5a59;
     color: #ffffff;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
 }
 
 p.donateDesc {
@@ -237,6 +240,20 @@ button.giveButton {
     background-color: #fff;
     color: #ff5a59;
     }
+
+ .involvedEventsContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
+    color: #a03594;
+}
+
+button.involvedButton {
+    background-color: #a03594;
+    color: #fff;
+}
+
 
 /*FOOTER*/
 footer {
