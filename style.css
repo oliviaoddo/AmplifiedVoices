@@ -306,6 +306,14 @@ button.planButton {
     color: #ff5a59;
 }
 
+.homeTop{
+	position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #ff5a59;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
