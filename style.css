@@ -226,6 +226,22 @@ button .theFacts {
     color: #ff5a59;
 }
 
+.getInvolvedContainer {
+    background-color: #ff5a59;
+    color: #ffffff;
+    padding: 80px;
+}
+
+p.donateDesc {
+    font-style: italic;
+    color: #fff;
+}
+
+button.giveButton {
+    background-color: #fff;
+    color: #ff5a59;
+    }
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
