@@ -189,7 +189,7 @@ font-style: italic;
    color: #ff5a59;
 }
 
-button .theFacts {
+button.theFacts {
 	color: #ffffff;
 	background-color: #ff5a59;
 }
@@ -254,6 +254,18 @@ button.involvedButton {
     color: #fff;
 }
 
+.volunteerContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 25%;
+    margin-left: 25%;
+    color: #ff5a59;
+}
+
+button.emailEvents {
+    background-color: #ff5a59;
+    color: #fff;
+}
 
 /*FOOTER*/
 footer {
