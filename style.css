@@ -292,6 +292,20 @@ button.emailEvents {
    color: #ff5a59;
 }
 
+.homeContainer {
+    background-color: #ff5a59;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 25%;
+    padding-left: 20px;
+}
+
+button.planButton {
+    background-color: #fff;
+    color: #ff5a59;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
