@@ -275,6 +275,23 @@ button.emailEvents {
    color: #ff5a59;
 }
 
+.donateContainer {
+    background-color: #a03594;
+    padding-left: 80px;
+    padding-right: 50%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    color: #fff;
+}
+
+.donateTop{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #ff5a59;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
