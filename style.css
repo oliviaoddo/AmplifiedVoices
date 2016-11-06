@@ -186,6 +186,19 @@ p span {
 font-style: italic;
  }
 
+ .theFacts{ 
+   position: absolute; 
+   top: 200px; 
+   left: 100px; 
+   width: 25%; 
+   color: #ff5a59;
+}
+
+button .theFacts {
+	color: #ffffff;
+	background-color: #ff5a59;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
