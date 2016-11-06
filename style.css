@@ -199,10 +199,30 @@ button .theFacts {
 }
 
 .resourcesBackground {
-    color: white;
-}
-.resourcesBackground {
     background-color: #ff5a59;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.issueContainer {
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.issueBlue {
+    color: #3f3994;
+}
+
+.issuePurple {
+    color: #a03594;
+}
+
+.issuePink {
+    color: #ff5a59;
 }
 
 /*FOOTER*/
