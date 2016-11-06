@@ -19,7 +19,7 @@ Version: 1.0.0
 
 .site .skip-link {
     display: none;
-} 
+}
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
 	margin-top: 0px !important;
@@ -58,23 +58,23 @@ a.navbar-brand > img {
 }
 
 /* Changes the nav items font weight and color on hover */
-#menu-av-menu > li > a:hover, #menu-av-menu > li.current-menu-item > a{
- color: rgb(255, 90, 89) !important;
- font-weight: 900 !important;
+#menu-av-menu > li > a:hover, #menu-av-menu > li > a:active {
+ color: rgb(255, 90, 89);
 }
 
 /* Changes the bg color of Donate button */
 .donate-button > a {
- width: auto;
- height: auto;
- background: rgb(255, 90, 89) !important;
+ background: rgb(63, 57, 148) !important;
 }
 
 /* Changes donate button's text color on hover */
 #menu-av-menu > li.donate-button > a:hover {
-	color: #fff !important;
+	color: rgb(255, 167, 26) !important;
 }
 
+#menu-av-menu > li.donate-button > a:active {
+ color: #fff !important;
+}
 
 /*BODY*/
 #main {
@@ -165,31 +165,31 @@ section.block {
  	font-style: italic;
  }
 
- .top{ 
-   position: absolute; 
-   top: 200px; 
-   left: 100px; 
-   width: 25%; 
+ .top{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
    color: #a03594;
 }
 
-.bottom h4 { 
-   position: absolute; 
-   top: 400px; 
-   left: 100px; 
-   width: 25%; 
+.bottom h4 {
+   position: absolute;
+   top: 400px;
+   left: 100px;
+   width: 25%;
    color: #a03594;
 }
 
-p span { 
+p span {
 font-style: italic;
  }
 
- .theFacts{ 
-   position: absolute; 
-   top: 200px; 
-   left: 100px; 
-   width: 25%; 
+ .theFacts{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
    color: #ff5a59;
 }
 
