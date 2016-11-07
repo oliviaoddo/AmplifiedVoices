@@ -327,6 +327,23 @@ button.getButton {
     color: #fff;
 }
 
+.homeContainerBottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 25%;
+    padding-left: 20px;
+    color: #3f3994;
+}
+
+h4.without {
+    font-style: italic;
+}
+
+button.sponsorButton {
+    color: #ffffff;
+    background-color: #3f3994;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
