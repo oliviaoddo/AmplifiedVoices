@@ -175,6 +175,7 @@ section.block {
    left: 100px;
    width: 25%;
    color: #a03594;
+   
 }
 
 p span {
@@ -192,6 +193,7 @@ font-style: italic;
 button.theFacts {
 	color: #ffffff;
 	background-color: #ff5a59;
+	border: none;
 }
 
 .resourcesBackground {
@@ -239,6 +241,7 @@ p.donateDesc {
 button.giveButton {
     background-color: #fff;
     color: #ff5a59;
+    border: none;
     }
 
  .involvedEventsContainer {
@@ -252,6 +255,7 @@ button.giveButton {
 button.involvedButton {
     background-color: #a03594;
     color: #fff;
+    border: none;
 }
 
 .volunteerContainer {
@@ -265,6 +269,7 @@ button.involvedButton {
 button.emailEvents {
     background-color: #ff5a59;
     color: #fff;
+    border: none;
 }
 
 .helpTop{
@@ -304,6 +309,7 @@ button.emailEvents {
 button.planButton {
     background-color: #fff;
     color: #ff5a59;
+    border: none;
 }
 
 .homeTop {
@@ -325,12 +331,13 @@ span.heardTop {
 button.getButton {
     background-color: #ff5a59;
     color: #fff;
+    border: none;
 }
 
 .homeContainerBottom {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 25%;
+    padding-right: 65%;
     padding-left: 20px;
     color: #3f3994;
 }
@@ -342,6 +349,7 @@ h4.without {
 button.sponsorButton {
     color: #ffffff;
     background-color: #3f3994;
+    border: none;
 }
 
 /*FOOTER*/
