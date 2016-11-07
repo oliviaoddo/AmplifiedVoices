@@ -360,6 +360,26 @@ button.sponsorButton {
     border: none;
 }
 
+.sponsorsContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
+    color: #a03594;
+}
+
+h5.sponsors {
+    color: #a03594;
+}
+
+h5.donors {
+    color: #ff5a59;
+}
+
+h5.supporters {
+    color: #ffa71a;
+}
+
 /*FOOTER*/
 footer {
 	background-color: #3F3994;
