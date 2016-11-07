@@ -297,6 +297,10 @@ button.emailEvents {
    color: #ff5a59;
 }
 
+button.donateOnlineButton {
+	border: none;
+}
+
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
@@ -318,6 +322,10 @@ button.planButton {
    left: 100px;
    width: 25%;
    color: #ff5a59;
+}
+
+button.voiceButton {
+	border: none;
 }
 
 span.heardTop {
