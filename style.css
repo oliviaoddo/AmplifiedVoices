@@ -306,12 +306,25 @@ button.planButton {
     color: #ff5a59;
 }
 
-.homeTop{
-	position: absolute;
+.homeTop {
+   position: absolute;
    top: 200px;
    left: 100px;
    width: 25%;
    color: #ff5a59;
+}
+
+span.heardTop {
+    position: absolute;
+    top: 60%;
+    left: 100px;
+    width: 25%;
+    color: #ff5a59;
+}
+
+button.getButton {
+    background-color: #ff5a59;
+    color: #fff;
 }
 
 /*FOOTER*/
