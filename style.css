@@ -115,6 +115,7 @@ a.navbar-brand > img {
 
  .aboutDesc{
  	color: #ffffff;
+ 	font-style: italic;
  }
 
  .example {
@@ -165,7 +166,7 @@ section.block {
  }
 
  div .aboutContainer{
- 	padding-right: 80px;
+ 	padding-right: 30%;
  	padding-left: 80px;
  	padding-top: 40px;
  	padding-bottom: 40px;
