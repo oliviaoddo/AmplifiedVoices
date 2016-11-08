@@ -351,6 +351,7 @@ button.planButton {
    color: #fff;
    background-color: rgb(63, 57, 148);
    padding: 25px;
+   padding-bottom: 40px !important;
 }
 
 button.voiceButton {
