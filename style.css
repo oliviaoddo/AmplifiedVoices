@@ -34,6 +34,11 @@ height:auto;
 
 /*HEADER*/
 
+/* Fixes WP admin bar overlap */
+.admin-bar .navigation-wrapper {
+  top: 32px;
+}
+
 /* Sets logo width and height */
 a.navbar-brand > img {
   	width: 175px !important;
@@ -134,6 +139,11 @@ section.block {
 	display: none;
  }
 
+.fullwidth {
+	width: 100%;
+	height: 100%;
+}
+
  img .fullWidth{
  	width: 100% !important;
  	position: absolute;
@@ -142,6 +152,8 @@ section.block {
 
  img.aligncenter {
  	margin: 0px;
+	width: 100%;
+	display: inline;
  }
 
  .container{
@@ -304,10 +316,17 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 25%;
-    padding-left: 20px;
+    padding: 100px;
+}
+
+.homeContainer h5 {
+	line-height: 1.5;
+}
+
+button {
+	margin-top: 50px;
+    padding: 15px;
+	opacity: 1;
 }
 
 button.planButton {
@@ -326,6 +345,8 @@ button.planButton {
 
 button.voiceButton {
 	border: none;
+	background-color: #ff5a59;
+	color: #fff;
 }
 
 span.heardTop {
