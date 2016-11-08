@@ -34,11 +34,6 @@ height:auto;
 
 /*HEADER*/
 
-/* Fixes WP admin bar overlap */
-.admin-bar .navigation-wrapper {
-  top: 32px;
-}
-
 /* Sets logo width and height */
 a.navbar-brand > img {
   	width: 175px !important;
@@ -70,11 +65,12 @@ a.navbar-brand > img {
 /* Changes the bg color of Donate button */
 #menu-av-menu > li.donate-button > a {
  background: rgb(63, 57, 148) !important;
+ color: #fff !important;
 }
 
 /* Changes donate button's text color on hover */
 #menu-av-menu > li.donate-button > a:hover, #menu-av-menu > li.donate-button > a:active {
- color: #fff !important;
+ color: #FF5A59 !important;
 }
 
 /*BODY*/
@@ -168,6 +164,14 @@ section.block {
  	padding-top: 40px;
  	padding-bottom: 40px;
  }
+
+h2 {
+	font-weight: bold !important;
+}
+
+h2.thanks {
+	margin: 0px !important;
+}
 
  h4 .quoteBottom{
  	font-style: italic;
@@ -326,7 +330,11 @@ button.donateOnlineButton {
 button {
 	margin-top: 50px;
     padding: 15px;
-	opacity: 1;
+}
+
+/*Changes button opacity to 1 */
+.blog-posts .blog-post .blog-post-content p, .container p {
+	opacity: 1.0 !important;
 }
 
 button.planButton {
@@ -366,9 +374,17 @@ button.getButton {
 .homeContainerBottom {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 65%;
+    /*padding-right: 65%;*/
     padding-left: 20px;
     color: #3f3994;
+}
+
+.homeBottom {
+	margin-left: 75px;
+}
+
+.homeBottom .row {
+	padding-top: 80px;
 }
 
 h4.without {
