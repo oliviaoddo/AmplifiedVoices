@@ -220,6 +220,11 @@ button.theFacts {
 	border: none;
 }
 
+div#board {
+    color: #3f3994;
+}
+
+
 .resourcesBackground {
     background-color: #ff5a59;
     color: white;
