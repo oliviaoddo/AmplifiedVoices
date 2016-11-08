@@ -86,7 +86,8 @@ a.navbar-brand > img {
 
 .quote {
 	color: #a03594;
-	    padding-bottom: 100px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .bioName {
