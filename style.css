@@ -347,8 +347,10 @@ button.planButton {
    position: absolute;
    top: 200px;
    left: 100px;
-   width: 25%;
-   color: #ff5a59;
+   width: 35%;
+   color: #fff;
+   background-color: rgb(63, 57, 148);
+   padding: 25px;
 }
 
 button.voiceButton {
@@ -380,7 +382,7 @@ button.getButton {
 }
 
 .homeBottom {
-	margin-left: 75px;
+	margin-left: 60px;
 }
 
 .homeBottom .row {
