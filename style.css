@@ -41,9 +41,11 @@ a.navbar-brand > img {
 	margin-top: -10px;
 }
 
-/*Sets nav bg to transparent white */
-.primary-navigation {
- background-color: rgba(255, 255, 255, .7) !important;
+/* Sets nav background on home page to white */
+.navigation-wrapper .navigation {
+    background-color: #fff;
+	padding-top: 15px !important;
+	padding-bottom: 0px !important;
 }
 
 /* Changes the color of nav items */
@@ -63,13 +65,13 @@ a.navbar-brand > img {
 
 /* Changes the bg color of Donate button */
 #menu-av-menu > li.donate-button > a {
- background: rgb(63, 57, 148) !important;
+ background: #FF5A59 !important;
  color: #fff !important;
 }
 
 /* Changes donate button's text color on hover */
 #menu-av-menu > li.donate-button > a:hover, #menu-av-menu > li.donate-button > a:active {
- color: #FF5A59 !important;
+ color: rgb(160, 53,148) !important;
 }
 
 /*BODY*/
