@@ -16,7 +16,6 @@ Version: 1.0.0
 html {
 	overflow-y: scroll;
 	overflow-x: hidden;
-	margin-top: 0px !important;
 }
 
 /* Adds red focus indicator to everything for accessibility*/
@@ -60,7 +59,7 @@ a.navbar-brand > img {
 }
 
 /* Removes red/yellow borders */
-.navigation nav a:after, .navigation nav a:before {
+.navigation nav a:before {
  display: none !important;
 }
 
