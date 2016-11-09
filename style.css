@@ -69,7 +69,7 @@ a.navbar-brand > img {
  color: rgb(255, 90, 89) !important;
 }
 
-#menu-av-menu > li.current_page_item > a {
+#menu-av-menu > li.current-menu-item > a {
 	border-bottom: rgb(255, 90, 89);
 }
 
