@@ -9,7 +9,20 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+/*PATCH*/
 
+.smallMode {
+    display: none !important;
+}
+
+@media screen and (max-width:1024px) {
+    .smallMode {
+        display: block !important;
+    }
+}
+
+
+/*PATCH END*/
 
 /*GLOBAL*/
 /* Hides horizontal scroll bar */
@@ -83,7 +96,9 @@ a.navbar-brand > img {
 #menu-av-menu > li.donate-button > a:hover, #menu-av-menu > li.donate-button > a:active {
  color: rgb(160, 53,148) !important;
 }
-
+.headline{
+	padding:13px;
+}
 /*BODY*/
 #main {
 	padding-top: 0px;
@@ -163,11 +178,11 @@ section.block {
 	display: inline;
  }
 
- .container{
+ /*.container{
  	margin: 0 !important;
  	padding: 0 !important;
  	width: 100%;
- }
+ }*/
 
  div .aboutContainer{
  	padding-right: 80px;
@@ -396,7 +411,7 @@ button.getButton {
 	margin-left: 60px;
 }
 
-.homeBottom .row {
+.homeBottom {
 	padding-top: 80px;
 }
 
@@ -436,7 +451,7 @@ footer {
 	color: white;
 }
 
-footer .row {
+footer {
 	padding: 30px;
 }
 
