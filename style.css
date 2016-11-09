@@ -60,13 +60,17 @@ a.navbar-brand > img {
 }
 
 /* Removes red/yellow borders */
-.navigation nav a:before {
+.navigation nav a:before, .navigation nav a:after {
  display: none !important;
 }
 
 /* Changes the nav items font weight and color on hover */
-#menu-av-menu > li > a:hover, #menu-av-menu > li > a:active {
+#menu-av-menu > li > a:hover{
  color: rgb(255, 90, 89) !important;
+}
+
+#menu-av-menu > li.current_page_item > a {
+	border-bottom: rgb(255, 90, 89);
 }
 
 /* Changes the bg color of Donate button */
