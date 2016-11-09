@@ -12,6 +12,12 @@ Version: 1.0.0
 
 
 /*GLOBAL*/
+/* Hides horizontal scroll bar */
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
 /* Adds red focus indicator to everything for accessibility*/
 *:focus {
 	border: dotted 1px #FF5A59;
@@ -38,13 +44,11 @@ height:auto;
 a.navbar-brand > img {
   	width: 175px !important;
 	height: 50px !important;
-	background-color: rgba(255,255,255,0.7);
 	margin-top: -10px;
 }
 
-/*Sets nav bg to transparent white */
-.primary-navigation {
- background-color: rgba(255, 255, 255, .7) !important;
+.navigation-wrapper .navigation {
+    padding-top: 10px;
 }
 
 /* Changes the color of nav items */
@@ -395,9 +399,24 @@ h4.without {
 }
 
 button.sponsorButton {
-    color: #ffffff;
+    text-decoration: none;
+	color: #ffffff;
     background-color: #3f3994;
     border: none;
+}
+
+button.sponsorButton a:hover {
+    text-decoration: none !important;
+}
+
+button.sponsorButton a:active {
+    text-decoration: none;
+	color: #FF5A59;
+}
+
+button.sponsorButton a:focus {
+    text-decoration: none;
+	color: #FF5A59;
 }
 
 .sponsorsContainer {
@@ -418,6 +437,36 @@ h5.donors {
 
 h5.supporters {
     color: #ffa71a;
+}
+
+.sponsorsCopy {
+	background-color: #FF5A59;
+    color: #fff;
+    padding: 75px;
+}
+
+.sponsorsCopy a {
+	text-decoration: none;
+}
+
+.sponsorsCopy a:hover {
+	text-decoration: none;
+	color: #3F3994;
+}
+
+.sponsorsCopy a:active {
+	text-decoration: none;
+	color: #3F3994;
+}
+
+.sponsorsLogos {
+	padding: 75px;
+	margin: auto;
+    text-align: center;
+}
+
+.sponsorsLogos img {
+	margin: 50px;
 }
 
 /*FOOTER*/
