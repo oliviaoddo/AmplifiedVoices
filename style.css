@@ -1,5 +1,7 @@
 @charset "utf-8";
+
 /* CSS Document */
+
 
 /*
 Theme: Anaglyph Lite Child
@@ -9,6 +11,8 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+
+
 /*PATCH*/
 
 .smallMode {
@@ -19,21 +23,47 @@ Version: 1.0.0
     .smallMode {
         display: block !important;
     }
+    .homeTop {
+        display: none !important;
+    }
+    .heardTop {
+        display: none !important;
+    }
+    .homeContainerBottom {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .homeBottom {
+        margin-left: 20px;
+        padding-top: 20px !important;
+    }
+    button.getButtonSmall {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 
 /*PATCH END*/
 
+
 /*GLOBAL*/
+
+
 /* Hides horizontal scroll bar */
+
 html {
-	overflow-y: scroll;
-	overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
+
 /* Adds red focus indicator to everything for accessibility*/
+
 *:focus {
-	border: dotted 1px #FF5A59;
+    border: dotted 1px #FF5A59;
 }
 
 .site .skip-link {
@@ -41,209 +71,224 @@ html {
 }
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
-	margin-top: 0px !important;
+    margin-top: 0px !important;
 }
 
-#skip a:focus
-{
-position:static;
-width:auto;
-height:auto;
+#skip a:focus {
+    position: static;
+    width: auto;
+    height: auto;
 }
+
 
 /*HEADER*/
 
+
 /* Sets logo width and height */
+
 a.navbar-brand > img {
-  	width: 200px !important;
-	height: 57px !important;
-	margin-top: -15px;
+    width: 200px !important;
+    height: 57px !important;
+    margin-top: -15px;
 }
+
 
 /* Sets nav background on home page to white */
+
 .navigation-wrapper .navigation {
     background-color: #fff;
-	padding-top: 15px !important;
-	padding-bottom: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
 }
+
 
 /* Changes the color of nav items */
+
 #menu-av-menu > li > a {
-	color: rgb(160, 53,148);
+    color: rgb(160, 53, 148);
 }
+
 
 /* Removes red/yellow borders */
-.navigation nav a:before, .navigation nav a:after {
- display: none !important;
+
+.navigation nav a:before,
+.navigation nav a:after {
+    display: none !important;
 }
 
+
 /* Changes the nav items font weight and color on hover */
-#menu-av-menu > li > a:hover{
- color: rgb(255, 90, 89) !important;
+
+#menu-av-menu > li > a:hover {
+    color: rgb(255, 90, 89) !important;
 }
 
 #menu-av-menu > li.current-menu-item > a {
-	border-bottom: rgb(255, 90, 89);
+    border-bottom: rgb(255, 90, 89);
 }
+
 
 /* Changes the bg color of Donate button */
+
 #menu-av-menu > li.donate-button > a {
- background: #FF5A59 !important;
- color: #fff !important;
+    background: #FF5A59 !important;
+    color: #fff !important;
 }
 
+
 /* Changes donate button's text color on hover */
-#menu-av-menu > li.donate-button > a:hover, #menu-av-menu > li.donate-button > a:active {
- color: rgb(160, 53,148) !important;
+
+#menu-av-menu > li.donate-button > a:hover,
+#menu-av-menu > li.donate-button > a:active {
+    color: rgb(160, 53, 148) !important;
 }
-.headline{
-	padding:13px;
-  position: relative;
-  z-index: 10;
+
+.headline {
+    padding: 13px;
 }
-.aboutImage{
-  position:relative;
-  background : url('/wp-content/uploads/2016/11/about_hero.jpg') no-repeat top-left;
-  width: 100%;
-  z-index: 1;
-  margin: 0px;
+
+.headline h2 {
+    margin-bottom: 2px;
 }
+
+
 /*BODY*/
+
 #main {
-	padding-top: 0px;
+    padding-top: 74px;
 }
 
 .quote {
-	color: #a03594;
+    color: #a03594;
 }
 
 .bioName {
-	color: #a03594;
-	display: inline;
+    color: #a03594;
+    display: inline;
 }
 
 .bioTitle {
-	color: #a03594;
-	display: inline;
-	font-style: italic;
- }
-
- .bioDescription{
- 	color: #a03594;
- }
-
- #aboutBackground {
- 	background-color: #a03594;
- 	width: 100%;
- 	padding: 0;
- }
-
- .aboutTitle{
- 	color: #ffffff;
- }
-
- .aboutDesc{
- 	color: #ffffff;
- }
-
- .example {
- 	color: #ffffff;
- }
-
-.quoteBottom{
-	color: #ff5a59;
+    color: #a03594;
+    display: inline;
+    font-style: italic;
 }
 
-.fullWidthPhoto{
-	width: 100% !important;
+.bioDescription {
+    color: #a03594;
+}
+
+#aboutBackground {
+    background-color: #a03594;
+    width: 100%;
+    padding: 0;
+}
+
+.aboutTitle {
+    color: #ffffff;
+}
+
+.aboutDesc {
+    color: #ffffff;
+}
+
+.example {
+    color: #ffffff;
+}
+
+.quoteBottom {
+    color: #ff5a59;
+}
+
+.fullWidthPhoto {
+    width: 100% !important;
 }
 
 section.block {
-  padding: 0;
+    padding: 0;
 }
 
 .sub-page .block {
-	padding: 0;
+    padding: 0;
 }
 
 .title {
-	display: none;
- }
-
-.fullwidth {
-	width: 100%;
-	height: 100%;
+    display: none;
 }
 
- img .fullWidth{
- 	width: 100% !important;
- 	top: -100px;
- }
+.fullwidth {
+    width: 100%;
+    height: 100%;
+}
+
+img .fullWidth {
+    width: 100% !important;
+    top: -100px;
+}
+
 
 /* img.aligncenter {
- 	margin: 0px;
-	width: 100%;
-	display: inline;
+  margin: 0px;
+  width: 100%;
+  display: inline;
  }*/
 
- .container{
- 	margin: 0 !important;
- 	padding: 0 !important;
- 	width: 100%;
- }
+.container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
 
- div .aboutContainer{
- 	padding-right: 80px;
- 	padding-left: 80px;
- 	padding-top: 40px;
- 	padding-bottom: 40px;
- }
+div .aboutContainer {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 h2 {
-	font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 h2.thanks {
-	margin: 0px !important;
+    margin: 0px !important;
 }
 
- h4 .quoteBottom{
- 	font-style: italic;
- }
+h4 .quoteBottom {
+    font-style: italic;
+}
 
- .top{
-   position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 25%;
-   color: #a03594;
+.top {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 25%;
+    color: #a03594;
 }
 
 .bottom h4 {
-   position: absolute;
-   top: 400px;
-   left: 100px;
-   width: 25%;
-   color: #a03594;
-
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 25%;
+    color: #a03594;
 }
 
 p span {
-font-style: italic;
- }
+    font-style: italic;
+}
 
- .theFacts{
-   position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 25%;
-   color: #ff5a59;
+.theFacts {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 25%;
+    color: #ff5a59;
 }
 
 button.theFacts {
-	color: #ffffff;
-	background-color: #ff5a59;
-	border: none;
+    color: #ffffff;
+    background-color: #ff5a59;
+    border: none;
 }
 
 .resourcesBackground {
@@ -292,9 +337,9 @@ button.giveButton {
     background-color: #fff;
     color: #ff5a59;
     border: none;
-    }
+}
 
- .involvedEventsContainer {
+.involvedEventsContainer {
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 80px;
@@ -322,12 +367,12 @@ button.emailEvents {
     border: none;
 }
 
-.helpTop{
-   position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 25%;
-   color: #ff5a59;
+.helpTop {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 25%;
+    color: #ff5a59;
 }
 
 .donateContainer {
@@ -339,16 +384,20 @@ button.emailEvents {
     color: #fff;
 }
 
-.donateTop{
-   position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 25%;
-   color: #ff5a59;
+.donateTop {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 25%;
+    color: #ff5a59;
 }
 
 button.donateOnlineButton {
-	border: none;
+    border: none;
+}
+
+.homeImage {
+    margin-bottom: -30px;
 }
 
 .homeContainer {
@@ -358,17 +407,20 @@ button.donateOnlineButton {
 }
 
 .homeContainer h5 {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 button {
-	margin-top: 50px;
+    margin-top: 50px;
     padding: 15px;
 }
 
+
 /*Changes button opacity to 1 */
-.blog-posts .blog-post .blog-post-content p, .container p {
-	opacity: 1.0 !important;
+
+.blog-posts .blog-post .blog-post-content p,
+.container p {
+    opacity: 1.0 !important;
 }
 
 button.planButton {
@@ -378,19 +430,19 @@ button.planButton {
 }
 
 .homeTop {
-   position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 35%;
-   color: #fff;
-   background-color: rgb(63, 57, 148);
-   padding: 25px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 35%;
+    color: #fff;
+    background-color: rgb(63, 57, 148);
+    padding: 25px;
 }
 
 button.voiceButton {
-	border: none;
-	background-color: #ff5a59;
-	color: #fff;
+    border: none;
+    background-color: #ff5a59;
+    color: #fff;
 }
 
 span.heardTop {
@@ -416,11 +468,11 @@ button.getButton {
 }
 
 .homeBottom {
-	margin-left: 60px;
+    margin-left: 60px;
 }
 
 .homeBottom {
-	padding-top: 80px;
+    padding-top: 80px;
 }
 
 h4.without {
@@ -431,6 +483,13 @@ button.sponsorButton {
     color: #ffffff;
     background-color: #3f3994;
     border: none;
+}
+
+button.getButtonSmall {
+    color: #ffffff;
+    background-color: #3f3994;
+    border: none;
+    margin-bottom: 30px;
 }
 
 .sponsorsContainer {
@@ -453,70 +512,72 @@ h5.supporters {
     color: #ffa71a;
 }
 
+
 /*FOOTER*/
+
 footer {
-	background-color: #3F3994;
-	color: white;
+    background-color: #3F3994;
+    color: white;
 }
 
 footer {
-	padding: 30px;
+    padding: 30px;
 }
 
 footer p {
-	color: white;
+    color: white;
 }
 
 footer a {
-	color: white;
+    color: white;
 }
 
 footer a:active {
-	color: #FF5A59 !important;
+    color: #FF5A59 !important;
 }
 
 footer a:focus {
-	color: #FF5A59 !important;
-	text-decoration: none;
+    color: #FF5A59 !important;
+    text-decoration: none;
 }
 
 footer a:hover {
-	color: #FF5A59;
-	text-decoration: none;
+    color: #FF5A59;
+    text-decoration: none;
 }
 
 footer h5 {
-	margin-top: 0px;
-	color: white;
+    margin-top: 0px;
+    color: white;
 }
 
 .col-sm-12 col-md-6 left {
-	text-align: left;
+    text-align: left;
 }
 
 .col-sm-12 col-md-6 right {
-	text-align: right;
+    text-align: right;
 }
 
 @media screen and (max-width: 767px) {
-	.right {
-		text-align: left !important;
-	}
+    .right {
+        text-align: left !important;
+    }
 }
 
 .col-xs-12 copyright {
-	vertical-align: text-bottom;
-	font-size: 75%;
+    vertical-align: text-bottom;
+    font-size: 75%;
 }
 
 .footer-AV-logo {
-	float: right;
+    float: right;
 }
 
 footer .social-logo {
-	background-color: white;
-	}
+    background-color: white;
+}
 
 footer .social-logo:hover {
-	background-color: #FF5A59;
-	}
+    background-color: #FF5A59;
+}
