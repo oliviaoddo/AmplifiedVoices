@@ -11,15 +11,50 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+/*PATCHES*/
+
+.ButtonPatcher {
+    background-color: #fff;
+    color: #ff5a59;
+    border: none;
+    float: right;
+    margin-top: 5px;
+}
+
+.getButtonSmallModeUniq {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.colorCodePurple {
+    color: #a23f8e;
+}
+
+.colorCodeBlue {
+    color: #443c93;
+}
 
 
-/*PATCH*/
+.AboutTop {
+    position: absolute;
+    top: 10%;
+    left: 100px;
+    width: 25%;
+    color: #943a92;
+}
 
 .smallMode {
     display: none !important;
 }
 
+.heardTop {
+    display: block !important;
+}
+
 @media screen and (max-width:1024px) {
+    .theFacts {
+        display: none !important;
+    }
     .smallMode {
         display: block !important;
     }
@@ -29,19 +64,18 @@ Version: 1.0.0
     .heardTop {
         display: none !important;
     }
-    .homeContainerBottom {
-        padding-top: 20px !important;
-        padding-bottom: 20px !important;
-        padding-right: 20px !important;
-        padding-left: 20px !important;
+    .AboutTop {
+        display: none !important;
+        ;
     }
+
     .homeBottom {
         margin-left: 20px;
         padding-top: 20px !important;
     }
     button.getButtonSmall {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -204,11 +238,11 @@ a.navbar-brand > img {
 }
 
 section.block {
-    padding: 0;
+    padding: 0px;
 }
 
 .sub-page .block {
-    padding: 0;
+    padding: 0px;
 }
 
 .title {
@@ -239,8 +273,8 @@ img .fullWidth {
 }
 
 div .aboutContainer {
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -301,10 +335,10 @@ button.theFacts {
 }
 
 .issueContainer {
-    padding-left: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-right: 40%;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
 }
 
 .issueBlue {
@@ -322,11 +356,13 @@ button.theFacts {
 .getInvolvedContainer {
     background-color: #ff5a59;
     color: #ffffff;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+
 
 p.donateDesc {
     font-style: italic;
@@ -340,10 +376,10 @@ button.giveButton {
 }
 
 .involvedEventsContainer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #a03594;
 }
 
@@ -354,10 +390,10 @@ button.involvedButton {
 }
 
 .volunteerContainer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-right: 20%;
-    margin-left: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: #ff5a59;
 }
 
@@ -377,10 +413,10 @@ button.emailEvents {
 
 .donateContainer {
     background-color: #a03594;
-    padding-left: 80px;
-    padding-right: 50%;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: #fff;
 }
 
@@ -403,7 +439,10 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding: 100px;
+    padding-right: : 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
 }
 
 .homeContainer h5 {
@@ -460,20 +499,15 @@ button.getButton {
 }
 
 .homeContainerBottom {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    /*padding-right: 65%;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
     padding-left: 20px;
     color: #3f3994;
 }
 
-.homeBottom {
-    margin-left: 60px;
-}
 
-.homeBottom {
-    padding-top: 80px;
-}
+
 
 h4.without {
     font-style: italic;
@@ -493,10 +527,10 @@ button.getButtonSmall {
 }
 
 .sponsorsContainer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #a03594;
 }
 
