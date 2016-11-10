@@ -468,6 +468,15 @@ button {
     padding: 15px;
 }
 
+input[type=submit] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-color: #ff5a59;
+    border: none;
+    color: white;
+    padding: 10px;
+ }
+
 
 /*Changes button opacity to 1 */
 
