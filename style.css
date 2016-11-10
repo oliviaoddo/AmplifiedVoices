@@ -128,6 +128,15 @@ html {
 /* Sets logo width and height */
 
 a.navbar-brand > img {
+<<<<<<< HEAD
+  	width: 175px !important;
+	height: 50px !important;
+	margin-top: -10px;
+}
+
+.navigation-wrapper .navigation {
+    padding-top: 10px;
+=======
     width: 200px !important;
     height: 57px !important;
     margin-top: -15px;
@@ -140,6 +149,7 @@ a.navbar-brand > img {
     background-color: #fff;
     padding-top: 15px !important;
     padding-bottom: 0px !important;
+>>>>>>> origin/master
 }
 
 
