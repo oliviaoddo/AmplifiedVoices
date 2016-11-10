@@ -12,7 +12,14 @@ Template: anaglyph-lite
 Version: 1.0.0
 */
 /*PATCHES*/
+.sep{
+    margin-bottom: 50px !important;
+}
 
+
+.entry-content h2 {
+    margin-bottom: 8px;
+}
 .ButtonPatcher {
     background-color: #fff;
     color: #ff5a59;
@@ -142,6 +149,10 @@ a.navbar-brand > img {
     color: rgb(160, 53, 148);
 }
 
+#menu-av-menu >li {
+    padding-left: 20px;
+}
+
 
 /* Removes red/yellow borders */
 
@@ -260,11 +271,14 @@ img .fullWidth {
 }
 
 
-/* img.aligncenter {
-  margin: 0px;
-  width: 100%;
-  display: inline;
- }*/
+.entry-summary{
+    padding-right: 20px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-top:10px !important;
+}
+
+
 
 .container {
     margin: 0 !important;
@@ -439,7 +453,7 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding-right: : 20px;
+    padding-right: 20px;
     padding-top: 40px;
     padding-left: 20px;
     padding-bottom: 40px;
@@ -460,6 +474,11 @@ button {
 .blog-posts .blog-post .blog-post-content p,
 .container p {
     opacity: 1.0 !important;
+}
+
+.blog-post-content{
+    padding-left: 20px;
+    padding-left: 20px;
 }
 
 button.planButton {
