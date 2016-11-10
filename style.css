@@ -477,6 +477,11 @@ input[type=submit] {
     padding: 10px;
  }
 
+ .subscriptionContainer.col-xs-10.col-xs-offset-1 {
+    color: #ff5a59;
+}
+
+
 
 /*Changes button opacity to 1 */
 
