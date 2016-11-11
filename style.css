@@ -202,12 +202,6 @@ a.navbar-brand > img {
     margin-bottom: 2px;
 }
 
-/* Removes mobile nav horizontal scrollbar */
-nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 
 /*BODY*/
 
