@@ -11,6 +11,23 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+/*FONTS*/
+@font-face {
+    font-family: Campton-Bold;
+    src: url(fonts/Campton-Bold.otf);
+}
+
+@font-face {
+    font-family: Campton-Light;
+    src: url(fonts/Campton-Light.otf);
+}
+
+@font-face {
+    font-family: CreteRound-italic;
+    src: url(CreteRound-Italic.otf);
+}
+
+
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
