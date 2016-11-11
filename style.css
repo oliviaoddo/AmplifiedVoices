@@ -11,23 +11,6 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
-/*FONTS*/
-@font-face {
-    font-family: Campton-Bold;
-    src: url(fonts/Campton-Bold.otf);
-}
-
-@font-face {
-    font-family: Campton-Light;
-    src: url(fonts/Campton-Light.otf);
-}
-
-@font-face {
-    font-family: CreteRound-italic;
-    src: url(CreteRound-Italic.otf);
-}
-
-
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -112,11 +95,10 @@ Version: 1.0.0
 
 /* Hides horizontal scroll bar */
 
-html, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in {
+html {
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
 
 /* Adds red focus indicator to everything for accessibility*/
 
@@ -145,7 +127,6 @@ html, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.col
 /* Sets logo width and height */
 
 a.navbar-brand > img {
-<<<<<<< HEAD
   	width: 175px !important;
 	height: 50px !important;
 	margin-top: -10px;
@@ -153,7 +134,6 @@ a.navbar-brand > img {
 
 .navigation-wrapper .navigation {
     padding-top: 10px;
-=======
     width: 200px !important;
     height: 57px !important;
     margin-top: -15px;
@@ -166,7 +146,6 @@ a.navbar-brand > img {
     background-color: #fff;
     padding-top: 15px !important;
     padding-bottom: 0px !important;
->>>>>>> origin/master
 }
 
 
@@ -221,6 +200,12 @@ a.navbar-brand > img {
 
 .headline h2 {
     margin-bottom: 2px;
+}
+
+/* Removes mobile nav horizontal scrollbar */
+nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 
