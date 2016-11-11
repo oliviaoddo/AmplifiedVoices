@@ -95,7 +95,7 @@ Version: 1.0.0
 
 /* Hides horizontal scroll bar */
 
-html, .navbar-collapse.in {
+html, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in {
     overflow-y: scroll;
     overflow-x: hidden;
 }
