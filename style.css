@@ -150,6 +150,10 @@ a.navbar-brand > img {
     border: dotted 1px #fff;
 }
 
+#menu-av-menu > li > a:focus {
+    border: dotted 1px #FF5A59;
+}
+
 #menu-av-menu >li {
     padding-left: 20px;
 }
