@@ -199,7 +199,7 @@ a.navbar-brand > img {
 .navigation-wrapper .navigation .nav > li.current_papge_item > a,
 .navigation-wrapper .navigation .nav > li.current-menu-item > a,
 .navigation-wrapper .navigation .nav > li.active > a {
-  color:
+  color: #FF5A59 !important;
 }
 
 
