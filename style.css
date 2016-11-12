@@ -191,6 +191,7 @@ a.navbar-brand > img {
 #menu-av-menu > li.donate-button > a {
     background: #FF5A59 !important;
     color: #fff !important;
+    border: none;
 }
 
 
