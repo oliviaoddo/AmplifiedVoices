@@ -376,7 +376,7 @@ button.theFacts {
 }
 
 .getInvolvedContainer {
-    background-color: #ff5a59;
+    background-color: #a03594;
     color: #ffffff;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -393,7 +393,7 @@ p.donateDesc {
 
 button.giveButton {
     background-color: #fff;
-    color: #ff5a59;
+    color: #a03594;
     border: none;
 }
 
@@ -416,11 +416,11 @@ button.involvedButton {
     padding-bottom: 40px;
     margin-right: 20px;
     margin-left: 20px;
-    color: #ff5a59;
+    color: #3f3994;
 }
 
 button.emailEvents {
-    background-color: #ff5a59;
+    background-color: #3f3994;
     color: #fff;
     border: none;
 }
