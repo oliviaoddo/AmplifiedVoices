@@ -439,7 +439,7 @@ button.emailEvents {
     padding-right: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #3f3994;
+    color: #ffffff;
 }
 
 .donateTop {
@@ -447,7 +447,7 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ffffff;
+    color: #3f3994;
 }
 
 button.donateOnlineButton {
