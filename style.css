@@ -192,11 +192,14 @@ a.navbar-brand > img {
 /* Changes the nav items font weight and color on hover */
 
 #menu-av-menu > li > a:hover {
-    color: rgb(255, 90, 89) !important;
+    color: #FF5A59 !important;
 }
 
-#menu-av-menu > li.current-menu-item > a {
-    border-bottom: rgb(255, 90, 89);
+/* Changes nav menu items font color to indicate the active page */
+.navigation-wrapper .navigation .nav > li.current_papge_item > a,
+.navigation-wrapper .navigation .nav > li.current-menu-item > a,
+.navigation-wrapper .navigation .nav > li.active > a {
+  color:
 }
 
 
