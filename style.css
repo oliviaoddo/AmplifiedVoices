@@ -27,6 +27,7 @@ Version: 1.0.0
     src: url(CreteRound-Italic.otf);
 }
 
+
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -503,17 +504,11 @@ input[type=submit] {
     padding: 10px;
  }
 
- .subscriptionContainer {
-    padding-top: 40px;
-    padding-bottom: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
-    color: #943a92;
+ .subscriptionContainer.col-xs-10.col-xs-offset-1 {
+    color: #ff5a59;
 }
 
-#subscriptionButton {
-    background-color: #943a92;
-}
+
 
 /*Changes button opacity to 1 */
 
