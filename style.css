@@ -147,6 +147,7 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
+    border: dotted 1px #fff;
 }
 
 #menu-av-menu >li {
