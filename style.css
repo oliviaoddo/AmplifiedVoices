@@ -210,8 +210,13 @@ a.navbar-brand > img {
     color: rgb(255, 90, 89) !important;
 }
 
-#menu-av-menu > li.current-menu-item > a {
-    border-bottom: rgb(255, 90, 89);
+.navigation-wrapper .navigation .nav > li.current_page_item > a,
+.navigation-wrapper .navigation .nav > li.current-menu-item > a,
+.navigation-wrapper .navigation .nav > li.current-menu-parent > a,
+.navigation-wrapper .navigation .nav > li.current_page_parent > a,
+.navigation-wrapper .navigation .nav > li.current-menu-ancestor > a,
+.navigation-wrapper .navigation .nav > li.active a {
+    color: rgb(255, 90, 89) !important;
 }
 
 
