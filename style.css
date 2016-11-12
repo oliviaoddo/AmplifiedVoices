@@ -150,14 +150,14 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
-    border: dotted 1px rgba(255, 255, 255, 0); 
+    border: dotted 1px #FFF;
 }
 
 #menu-av-menu > li > a:focus {
     border: dotted 1px #FF5A59;
 }
 
-#menu-av-menu >li {
+#menu-av-menu > li {
     padding-left: 20px;
 }
 
@@ -180,6 +180,11 @@ a.navbar-brand > img {
     border-bottom: rgb(255, 90, 89);
 }
 
+.navigation-wrapper .navigation .nav > li.current_page_item > a,
+.navigation-wrapper .navigation .nav > li.current-menu-item > a,
+.navigation-wrapper .navigation .nav > li.active > a {
+  color: #FF5A59 !important;
+ }
 
 /* Changes the bg color of Donate button */
 
@@ -191,8 +196,7 @@ a.navbar-brand > img {
 
 /* Changes donate button's text color on hover */
 
-#menu-av-menu > li.donate-button > a:hover,
-#menu-av-menu > li.donate-button > a:active {
+#menu-av-menu > li.donate-button > a:hover {
     color: rgb(160, 53, 148) !important;
 }
 
