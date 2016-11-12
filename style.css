@@ -544,7 +544,7 @@ button.planButton:hover {
     top: 150px;
     left: 100px;
     width: 35%;
-    color: #3f3994;
+    color: yellow;
 }
 
 @media screen and (max-width:1225px) {
