@@ -469,11 +469,16 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #ffffff;
+    background-color: #a03594;
+    padding: 15px;
+
 }
 
 button.donateOnlineButton {
     border: none;
+    background-color: #ffffff;
+    color: #a03594;
 }
 
 .homeImage {
