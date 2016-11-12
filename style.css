@@ -127,14 +127,14 @@ html {
 
 /*HEADER*/
 
-
+a.navbar-brand {
+  border: dotted 1px #FFF;
+}
 /* Sets logo width and height */
-
 a.navbar-brand > img {
     width: 200px !important;
     height: 57px !important;
     margin-top: -15px;
-    border: dotted 1px #FFF;
 }
 
 
