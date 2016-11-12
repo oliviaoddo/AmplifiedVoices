@@ -631,6 +631,11 @@ footer h5 {
     text-align: right;
 }
 
+@media (max-width: 997px) {
+.navigation-wrapper .navigation .navbar .navbar-collapse {
+    background-color: #ffffff;
+}
+
 @media screen and (max-width: 997px) {
     .right {
         text-align: left !important;
