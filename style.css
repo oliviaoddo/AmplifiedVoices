@@ -130,6 +130,11 @@ html {
 a.navbar-brand {
   border: dotted 1px #FFF;
 }
+
+a.navbar-brand:focus {
+    border: dotted 1px #FF5A59;
+}
+
 /* Sets logo width and height */
 a.navbar-brand > img {
     width: 200px !important;
