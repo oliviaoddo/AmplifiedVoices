@@ -1,4 +1,4 @@
-@charset "utf-8";
+    @charset "utf-8";
 
 /* CSS Document */
 
@@ -11,15 +11,53 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+
+
 /*PATCHES*/
-.sep{
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+.sep {
     margin-bottom: 50px !important;
 }
-
 
 .entry-content h2 {
     margin-bottom: 8px;
 }
+
 .ButtonPatcher {
     background-color: #fff;
     color: #ff5a59;
@@ -40,7 +78,6 @@ Version: 1.0.0
 .colorCodeBlue {
     color: #443c93;
 }
-
 
 .AboutTop {
     position: absolute;
@@ -147,7 +184,7 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
-    border: dotted 1px #fff;
+    border: dotted 1px rgba(255, 255, 255, 0);
 }
 
 #menu-av-menu > li > a:focus {
@@ -275,15 +312,12 @@ img .fullWidth {
     top: -100px;
 }
 
-
-.entry-summary{
+.entry-summary {
     padding-right: 20px !important;
     padding-bottom: 10px !important;
     padding-left: 20px !important;
-    padding-top:10px !important;
+    padding-top: 10px !important;
 }
-
-
 
 .container {
     margin: 0 !important;
@@ -381,8 +415,6 @@ button.theFacts {
     padding-right: 20px;
 }
 
-
-
 p.donateDesc {
     font-style: italic;
     color: #fff;
@@ -458,10 +490,26 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-bottom: 40px;
+    padding: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    .homeContainer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .homeContainerBottom {
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .sponsorButton {
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
 }
 
 .homeContainer h5 {
@@ -480,12 +528,11 @@ input[type=submit] {
     border: none;
     color: white;
     padding: 10px;
- }
-
- .subscriptionContainer.col-xs-10.col-xs-offset-1 {
-    color: #ff5a59;
 }
 
+.subscriptionContainer.col-xs-10.col-xs-offset-1 {
+    color: #ff5a59;
+}
 
 
 /*Changes button opacity to 1 */
@@ -495,7 +542,7 @@ input[type=submit] {
     opacity: 1.0 !important;
 }
 
-.blog-post-content{
+.blog-post-content {
     padding-left: 20px;
     padding-left: 20px;
 }
@@ -524,10 +571,14 @@ button.voiceButton {
 
 span.heardTop {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #fff;
+}
+
+span.heardTop h5 {
+    line-height: 1.5;
 }
 
 button.getButton {
@@ -537,15 +588,9 @@ button.getButton {
 }
 
 .homeContainerBottom {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 80px;
     color: #3f3994;
 }
-
-
-
 
 h4.without {
     font-style: italic;
@@ -632,33 +677,28 @@ footer h5 {
 }
 
 @media (max-width: 997px) {
-.navigation-wrapper .navigation .navbar .navbar-collapse {
-    background-color: #ffffff;
-}
-
-@media screen and (max-width: 997px) {
-    .right {
-        text-align: left !important;
+    .navigation-wrapper .navigation .navbar .navbar-collapse {
+        background-color: #ffffff;
     }
-
-    nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
-      overflow-x: hidden;
+    @media screen and (max-width: 997px) {
+        .right {
+            text-align: left !important;
+        }
+        nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in,
+        nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
+            overflow-x: hidden;
+        }
     }
-}
-
-.col-xs-12 copyright {
-    vertical-align: text-bottom;
-    font-size: 75%;
-}
-
-.footer-AV-logo {
-    float: right;
-}
-
-footer .social-logo {
-    background-color: white;
-}
-
-footer .social-logo:hover {
-    background-color: #FF5A59;
-}
+    .col-xs-12 copyright {
+        vertical-align: text-bottom;
+        font-size: 75%;
+    }
+    .footer-AV-logo {
+        float: right;
+    }
+    footer .social-logo {
+        background-color: white;
+    }
+    footer .social-logo:hover {
+        background-color: #FF5A59;
+    }
