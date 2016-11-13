@@ -572,6 +572,11 @@ button.emailEvents:hover {
 	padding-bottom: 100px;
 }
 
+i.social_pinterest,
+i.social_googleplus {
+	display:none;
+}
+
 .helpTop {
     position: absolute;
     top: 7%;
