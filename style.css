@@ -563,10 +563,7 @@ button.emailEvents:hover {
 	color: #FF5A59;
 }
 
-.blog-post > .entry-content > .post-header,
-.blog-post > .entry-content > .post-info,
-.blog-post > .entry-content > .post-author,
-.blog-post > .entry-content > .post-content {
+.blog-post {
 	padding-left: 100px;
 	padding-right: 100px;
 }
