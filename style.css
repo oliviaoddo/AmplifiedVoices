@@ -341,6 +341,17 @@ p span {
     color: #ff5a59;
 }
 
+.theFacts {
+	line-height: 1.5;
+}
+
+.theFacts h5 {
+	line-height: 1.5;
+    color: white;
+    max-width: 200px;
+    margin-top: 40px;
+}
+
 button.theFacts {
     color: #ffffff;
     background-color: #ff5a59;
@@ -369,7 +380,7 @@ button.theFacts {
 
 .resourcesBackground {
     background-color: #A03594;
-    color: white;
+    color: white !important;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 80px;
@@ -377,8 +388,12 @@ button.theFacts {
 }
 
 .resourcesBackground.issueContainer h4 {
-	margin-top: 20px;
+	margin-top: 30px !important;
 	text-transform: none !important;
+}
+
+.resourcesBackground.issueContainer a {
+	color: #FFA71A;
 }
 
 .issueContainer {
@@ -387,7 +402,7 @@ button.theFacts {
 }
 
 .issueContainer h4 {
-	text-traansform: none;
+	text-traansform: none !important;
 	margin: 0px !important;
 }
 
@@ -596,8 +611,8 @@ button.planButton:hover {
 
 button.voiceButton {
     border: none;
-    background-color: #3f3994;
-    color: #fff;
+    background-color: #fff;
+    color: #A03594;
 }
 
 button.voiceButton:hover {
