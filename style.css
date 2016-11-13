@@ -685,9 +685,12 @@ button.planButton:hover {
 	font-weight: bold;
 }
 
-.homeTop h4 {
-	line-height: 1.5;
+.homeTop h3 {
 	margin-top: 40px;
+}
+
+.homeBottom h3 {
+	margin-bottom: 40px;
 }
 
 button.voiceButton {
