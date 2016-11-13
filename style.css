@@ -531,10 +531,15 @@ button.emailEvents:hover {
 
 .donateTop {
     position: absolute;
-    top: 200px;
+    top: 3%;
     left: 100px;
-    width: 25%;
+    width: 55%;
     color: #3f3994;
+}
+
+.donateTop h1 {
+	color: #3F3994;
+	font-size: 64px;
 }
 
 button.donateOnlineButton {
