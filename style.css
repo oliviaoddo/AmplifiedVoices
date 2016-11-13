@@ -409,7 +409,7 @@ p span {
 
 .theFacts {
     position: absolute;
-    top: 7%;
+    top: 3%;
     left: 100px;
     width: 25%;
     color: #ff5a59;
@@ -421,9 +421,9 @@ p span {
 }
 
 .theFacts h3 {
-    color: #A03594;
+    color: #fff;
     max-width: 60%;
-    margin-top: 40px;
+    margin: 0px;
 }
 
 button.theFacts {
