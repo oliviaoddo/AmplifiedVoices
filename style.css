@@ -600,8 +600,14 @@ button.emailEvents:hover {
 	padding-right: 100px;
 }
 
-.blog-post > .entry-content > .post-content {
-	padding-bottom: 100px;
+/* Cancels out Read More animation */
+.read-more {
+	padding-left: 2px;
+}
+
+.read-more > a:hover {
+	color: #FF5A59;
+	text-decoration: none;
 }
 
 .blog-post > .entry-content > .post-footer {
@@ -611,7 +617,6 @@ button.emailEvents:hover {
 .blog-post > .entry-content .icons,
 .blog-post > .entry-content .icons > a {
 	color: #4D4D4F;
-	font-size: 1.4em;
 }
 
 .blog-post > .entry-content .icons > a:hover {
