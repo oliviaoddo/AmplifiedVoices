@@ -538,7 +538,8 @@ button.emailEvents:hover {
 }
 
 /* Events Page Changes */
-.blog-post-content.entry-summary > h2 > a {
+.blog-post-content.entry-summary > h2 > a,
+.post-header {
 	color: #3F3994;
 }
 
@@ -551,19 +552,27 @@ button.emailEvents:hover {
 	color: #FF5A59;
 }
 
-.author > a {
+.author > a,
+.post-author > a {
 	color: #000;
 }
 
-.author > a:hover {
+.author > a:hover,
+.post-author > a:hover {
 	text-decoration: none;
 	color: #FF5A59;
 }
 
-.blog-post {
-	padding: 100px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+.blog-post > .entry-content > .post-header,
+.blog-post > .entry-content > .post-info,
+.blog-post > .entry-content > .post-author,
+.blog-post > .entry-content > .post-content {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.blog-post > .entry-content > .post-content {
+	padding-bottom: 100px;
 }
 
 .helpTop {
