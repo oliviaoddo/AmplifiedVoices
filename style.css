@@ -245,6 +245,7 @@ a.navbar-brand > img {
 .bioName {
     color: #a03594;
     display: inline;
+	margin: 0px 0px 40px 40px;
 }
 
 .bioTitle {
@@ -255,6 +256,7 @@ a.navbar-brand > img {
 
 .bioDescription {
     color: #a03594;
+	margin: 15px 80px 10px 40px;
 }
 
 #aboutBackground {
@@ -322,7 +324,16 @@ img .fullWidth {
 }
 
 .aboutContainer {
-  padding: 80px;
+  padding: 80px 80px 160px 80px;
+}
+
+.aboutContainer h2 {
+	margin-bottom: 120px;
+}
+
+.aboutContainer img {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 h2 {
