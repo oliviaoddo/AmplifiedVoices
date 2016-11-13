@@ -285,6 +285,7 @@ a.navbar-brand > img {
 
 .aboutTitle {
     color: #ffffff;
+	margin-bottom: 0px !important;
 }
 
 .aboutDesc {
@@ -352,6 +353,14 @@ img .fullWidth {
 .aboutContainer img {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.aboutContainerMiddle {
+	padding: 80px;
+}
+
+.aboutContainerBottom {
+	padding: 80px;
 }
 
 .subscriptionContainer {
