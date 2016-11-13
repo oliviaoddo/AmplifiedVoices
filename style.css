@@ -347,8 +347,28 @@ button.theFacts {
     border: none;
 }
 
+.everyMonth {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.anually {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.runaway {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.common {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
 .resourcesBackground {
-    background-color: #ff5a59;
+    background-color: #A03594;
     color: white;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -356,11 +376,23 @@ button.theFacts {
     padding-right: 80px;
 }
 
+.resourcesBackground.issueContainer h4 {
+	margin-top: 20px;
+	text-transform: none !important;
+}
+
 .issueContainer {
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
+    padding: 80px;
+	color: #4D4D4F;
+}
+
+.issueContainer h4 {
+	text-traansform: none;
+	margin: 0px !important;
+}
+
+.issueContainer p {
+	margin: 0px;
 }
 
 .issueBlue {
