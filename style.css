@@ -11,23 +11,6 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
-/*FONTS*/
-@font-face {
-    font-family: Campton-Bold;
-    src: url(fonts/Campton-Bold.otf);
-}
-
-@font-face {
-    font-family: Campton-Light;
-    src: url(fonts/Campton-Light.otf);
-}
-
-@font-face {
-    font-family: CreteRound-italic;
-    src: url(CreteRound-Italic.otf);
-}
-
-
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -61,10 +44,10 @@ Version: 1.0.0
 
 .AboutTop {
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 100px;
     width: 25%;
-    color: #943a92;
+    color: #3f3994;
 }
 
 .smallMode {
@@ -75,7 +58,11 @@ Version: 1.0.0
     display: block !important;
 }
 
-@media screen and (max-width:1024px) {
+.Rowling {
+	float: right;
+}
+
+@media screen and (max-width:1023px) {
     .theFacts {
         display: none !important;
     }
@@ -103,7 +90,6 @@ Version: 1.0.0
     }
 }
 
-
 /*PATCH END*/
 
 
@@ -112,7 +98,7 @@ Version: 1.0.0
 
 /* Hides horizontal scroll bar */
 
-html, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in {
+html {
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -141,19 +127,16 @@ html, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.col
 
 /*HEADER*/
 
-
-/* Sets logo width and height */
-
-a.navbar-brand > img {
-<<<<<<< HEAD
-  	width: 175px !important;
-	height: 50px !important;
-	margin-top: -10px;
+a.navbar-brand {
+  border: dotted 1px #FFF;
 }
 
-.navigation-wrapper .navigation {
-    padding-top: 10px;
-=======
+a.navbar-brand:focus {
+    border: dotted 1px #FF5A59;
+}
+
+/* Sets logo width and height */
+a.navbar-brand > img {
     width: 200px !important;
     height: 57px !important;
     margin-top: -15px;
@@ -166,7 +149,6 @@ a.navbar-brand > img {
     background-color: #fff;
     padding-top: 15px !important;
     padding-bottom: 0px !important;
->>>>>>> origin/master
 }
 
 
@@ -174,9 +156,14 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
+    border: dotted 1px #FFF;
 }
 
-#menu-av-menu >li {
+#menu-av-menu > li > a:focus {
+    border: dotted 1px #FF5A59;
+}
+
+#menu-av-menu > li {
     padding-left: 20px;
 }
 
@@ -199,20 +186,43 @@ a.navbar-brand > img {
     border-bottom: rgb(255, 90, 89);
 }
 
+.navigation-wrapper .navigation .nav > li.current_page_item > a {
+  color: #FF5A59 !important;
+ }
 
 /* Changes the bg color of Donate button */
 
 #menu-av-menu > li.donate-button > a {
-    background: #FF5A59 !important;
-    color: #fff !important;
+    background: #FF5A59;
+    border: dotted 3px #FF5A59;
+    color: #FFF !important;
 }
 
+#menu-av-menu > li.donate-button > a:hover {
+    color: #A03594 !important;
+}
+
+#menu-av-menu > li.donate-button > a:focus {
+  border: dotted 3px #A03594;
+}
 
 /* Changes donate button's text color on hover */
 
-#menu-av-menu > li.donate-button > a:hover,
-#menu-av-menu > li.donate-button > a:active {
-    color: rgb(160, 53, 148) !important;
+#menu-av-menu > li.donate-button > a:hover {
+    color: #FF5A59 !important;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a {
+  background-color: #A03594;
+  border: dotted 3px #A03594;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a:hover {
+    color: #FF5A59 !important;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a:focus {
+    border: dotted 3px #FF5A59;
 }
 
 .headline {
@@ -268,7 +278,7 @@ a.navbar-brand > img {
 }
 
 .quoteBottom {
-    color: #ff5a59;
+    color: #3f3994;;
 }
 
 .fullWidthPhoto {
@@ -313,11 +323,8 @@ img .fullWidth {
     width: 100%;
 }
 
-div .aboutContainer {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.aboutContainer {
+  padding: 80px;
 }
 
 h2 {
@@ -358,6 +365,18 @@ p span {
     left: 100px;
     width: 25%;
     color: #ff5a59;
+	line-height: 1.5;
+}
+
+.theFacts h1 {
+	color: #fff;
+}
+
+.theFacts h5 {
+	line-height: 1.5;
+    color: white;
+    max-width: 200px;
+    margin-top: 40px;
 }
 
 button.theFacts {
@@ -366,20 +385,60 @@ button.theFacts {
     border: none;
 }
 
+.everyMonth {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.anually {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.runaway {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.common {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
 .resourcesBackground {
-    background-color: #ff5a59;
-    color: white;
+    background-color: #A03594;
+    color: white !important;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
+.resourcesBackground.issueContainer {
+	color: #fff !important;
+}
+
+.resourcesBackground.issueContainer h4 {
+	margin-top: 30px !important;
+	text-transform: none !important;
+}
+
+.resourcesBackground.issueContainer a {
+	color: #FFA71A;
+}
+
 .issueContainer {
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
+    padding: 80px;
+	color: #4D4D4F;
+}
+
+.issueContainer h4 {
+	text-traansform: none !important;
+	margin: 0px !important;
+}
+
+.issueContainer p {
+	margin: 0px;
 }
 
 .issueBlue {
@@ -395,12 +454,9 @@ button.theFacts {
 }
 
 .getInvolvedContainer {
-    background-color: #ff5a59;
+    background-color: #a03594;
     color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+   padding: 80px;
 }
 
 
@@ -412,15 +468,17 @@ p.donateDesc {
 
 button.giveButton {
     background-color: #fff;
-    color: #ff5a59;
+    color: #a03594;
     border: none;
 }
 
+button.giveButton:hover {
+    color: #ffffff;
+    background-color: #a03594;
+}
+
 .involvedEventsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
 }
 
@@ -430,18 +488,25 @@ button.involvedButton {
     border: none;
 }
 
+button.involvedButton:hover {
+    color: #a03594;
+    background-color: #ffffff;
+}
+
 .volunteerContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: #ff5a59;
+    padding: 80px;
+    color: #3f3994;
 }
 
 button.emailEvents {
-    background-color: #ff5a59;
+    background-color: #3f3994;
     color: #fff;
     border: none;
+}
+
+button.emailEvents:hover {
+    color: #3f3994;
+    background-color: #ffffff;
 }
 
 .helpTop {
@@ -449,16 +514,13 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #a03594;
 }
 
 .donateContainer {
     background-color: #a03594;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #fff;
+    padding: 80px;
+    color: #ffffff;
 }
 
 .donateTop {
@@ -466,12 +528,20 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #3f3994;
 }
 
 button.donateOnlineButton {
     border: none;
+    background-color: #3f3994;
+    color: #ffffff;
 }
+
+button.donateOnlineButton:hover {
+    color: #3f3994;
+    background-color: transparent;
+}
+
 
 .homeImage {
     margin-bottom: -30px;
@@ -480,10 +550,56 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-bottom: 40px;
+	padding: 80px;
+}
+
+.homeContainer h5 {
+	padding-right: 20px;
+}
+
+@media screen and (max-width:1024px) {
+	.homeContainer {
+		padding: 20px;
+	}
+
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .involvedEventsContainer{
+        padding: 20px;
+    }
+
+
+    .volunteerContainer{
+        padding: 20px;
+    }
+
+    .getInvolvedContainer{
+        padding: 20px;
+    }
+
+    .donateContainer{
+        padding: 20px;
+    }
+
+    .sponsorsContainer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+	.homeContainerBottom {
+		padding: 0px !important;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorButton {
+		margin-bottom: 20px;
+    	margin-left: 15px;
+
+	}
 }
 
 .homeContainer h5 {
@@ -526,7 +642,6 @@ input[type=submit] {
 
 .blog-post-content{
     padding-left: 20px;
-    padding-left: 20px;
 }
 
 button.planButton {
@@ -535,28 +650,69 @@ button.planButton {
     border: none;
 }
 
+button.planButton:hover {
+    background-color: #3F3994;
+	color: #fff;
+}
+
 .homeTop {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 100px;
     width: 35%;
-    color: #fff;
-    background-color: rgb(63, 57, 148);
-    padding: 25px;
+    color: #3F3994;
+}
+
+@media screen and (max-width:1225px) {
+	.homeTop {
+		top: 70px !important;
+	}
+}
+
+.homeTop h1 {
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.homeTop h4 {
+	line-height: 1.5;
+	margin-top: 40px;
 }
 
 button.voiceButton {
     border: none;
-    background-color: #ff5a59;
+    background-color: #fff;
+    color: #A03594;
+}
+
+button.voiceButton:hover {
+    border: none;
+    background-color: #FF5A59;
+    color: #fff;
+}
+
+button.voiceButtonHome {
+    border: none;
+    background-color: #3F3994;
+    color: #fff;
+}
+
+button.voiceButtonHome:hover {
+    border: none;
+    background-color: #FF5A59;
     color: #fff;
 }
 
 span.heardTop {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #fff;
+}
+
+span.heardTop h5 {
+	line-height: 1.5;
 }
 
 button.getButton {
@@ -565,16 +721,15 @@ button.getButton {
     border: none;
 }
 
-.homeContainerBottom {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
-    color: #3f3994;
+button.getButton:hover {
+    background-color: #fff;
+	color: #3F3994;
 }
 
-
-
+.homeContainerBottom {
+    padding: 80px;
+	color: #3f3994;
+}
 
 h4.without {
     font-style: italic;
@@ -586,6 +741,10 @@ button.sponsorButton {
     border: none;
 }
 
+button.sponsorButton:hover {
+    background-color: #FF5A59;
+}
+
 button.getButtonSmall {
     color: #ffffff;
     background-color: #3f3994;
@@ -594,11 +753,41 @@ button.getButtonSmall {
 }
 
 .sponsorsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
+}
+
+/* Sponsors page headline and subhead text */
+.sponsorsCopy {
+	background-color: #3F3994;
+    color: #fff;
+    padding: 80px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsCopy {
+    	padding: 20px;
+	}
+}
+
+.sponsorsLogos {
+	padding: 80px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsLogos {
+    	padding: 20px;
+	}
+}
+
+.sponsorsLogos img {
+	margin: 40px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsLogos img {
+    	margin: 20px;
+	}
 }
 
 h5.sponsors {
@@ -660,25 +849,43 @@ footer h5 {
     text-align: right;
 }
 
+.footer-AV-logo {
+    float: right !important;
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px)	{
+	.footer-AV-logo {
+		float: left !important;
+	}
+}
+
+.social-logo {
+    background-color: white;
+}
+
+.social-logo:hover {
+    background-color: #FF5A59;
+}
+
+@media (max-width: 997px) {
+.navigation-wrapper .navigation .navbar .navbar-collapse {
+    background-color: #ffffff;
+}
+}
+
 @media screen and (max-width: 767px) {
     .right {
         text-align: left !important;
     }
 }
 
+@media screen and (max-width: 997px) {
+nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
+      overflow-x: hidden;
+    }
+}
+
 .col-xs-12 copyright {
     vertical-align: text-bottom;
     font-size: 75%;
-}
-
-.footer-AV-logo {
-    float: right;
-}
-
-footer .social-logo {
-    background-color: white;
-}
-
-footer .social-logo:hover {
-    background-color: #FF5A59;
 }
