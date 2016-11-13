@@ -41,7 +41,6 @@ Version: 1.0.0
     color: #443c93;
 }
 
-
 .AboutTop {
     position: absolute;
     top: 3%;
@@ -360,7 +359,7 @@ p span {
 
 .theFacts {
     position: absolute;
-    top: 200px;
+    top: 7%;
     left: 100px;
     width: 25%;
     color: #ff5a59;
@@ -510,10 +509,18 @@ button.emailEvents:hover {
 
 .helpTop {
     position: absolute;
-    top: 200px;
+    top: 7%;
     left: 100px;
     width: 25%;
     color: #a03594;
+}
+
+.helpTop h1 {
+	color: #a03594;
+}
+
+.helpTop h4 {
+	margin-top: 40px;
 }
 
 .donateContainer {
