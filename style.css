@@ -420,10 +420,9 @@ p span {
 	color: #fff;
 }
 
-.theFacts h5 {
-	line-height: 1.5;
+.theFacts p {
     color: white;
-    max-width: 200px;
+    max-width: 75%;
     margin-top: 40px;
 }
 
