@@ -604,6 +604,10 @@ button.donateOnlineButton:hover {
     .sponsorsContainer {
         padding: 20px;
     }
+
+    .subscriptionContainer {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width:1024px) {
