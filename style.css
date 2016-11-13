@@ -11,6 +11,24 @@ Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
 Template: anaglyph-lite
 Version: 1.0.0
 */
+
+/*FONTS*/
+@font-face {
+    font-family: Campton-Bold;
+    src: url(fonts/Campton-Bold.otf);
+}
+
+@font-face {
+    font-family: Campton-Light;
+    src: url(fonts/Campton-Light.otf);
+}
+
+@font-face {
+    font-family: CreteRound;
+    src: url(CreteRound-Italic.otf);
+}
+
+
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -325,6 +343,18 @@ img .fullWidth {
   padding: 80px;
 }
 
+.subscriptionContainer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #943a92;
+}
+
+#subscriptionButton {
+    background-color: #943a92;
+}
+
 h2 {
     font-weight: bold !important;
 }
@@ -597,6 +627,10 @@ button.donateOnlineButton:hover {
     .sponsorsContainer {
         padding: 20px;
     }
+
+    .subscriptionContainer {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -630,18 +664,6 @@ input[type=submit] {
     color: white;
     padding: 10px;
  }
-
- .subscriptionContainer {
-    padding-top: 40px;
-    padding-bottom: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
-    color: #943a92;
-}
-
-#subscriptionButton {
-    background-color: #943a92;
-}
 
 /*Changes button opacity to 1 */
 
@@ -899,4 +921,17 @@ nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.
 .col-xs-12 copyright {
     vertical-align: text-bottom;
     font-size: 75%;
+}
+
+h1, h2 {
+    font-family: Campton-Bold !important;
+}
+
+h3 {
+    font-family: CreteRound !important;
+    font-style: italic !important;
+}
+
+p, h5, h4 {
+    font-family: Campton-Light !important;
 }
