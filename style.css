@@ -127,9 +127,15 @@ html {
 
 /*HEADER*/
 
+a.navbar-brand {
+  border: dotted 1px #FFF;
+}
+
+a.navbar-brand:focus {
+    border: dotted 1px #FF5A59;
+}
 
 /* Sets logo width and height */
-
 a.navbar-brand > img {
     width: 200px !important;
     height: 57px !important;
@@ -150,14 +156,14 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
-    border: dotted 1px rgba(255, 255, 255, 0); 
+    border: dotted 1px #FFF;
 }
 
 #menu-av-menu > li > a:focus {
     border: dotted 1px #FF5A59;
 }
 
-#menu-av-menu >li {
+#menu-av-menu > li {
     padding-left: 20px;
 }
 
@@ -180,20 +186,34 @@ a.navbar-brand > img {
     border-bottom: rgb(255, 90, 89);
 }
 
+.navigation-wrapper .navigation .nav > li.current_page_item > a {
+  color: #FF5A59 !important;
+ }
 
 /* Changes the bg color of Donate button */
 
 #menu-av-menu > li.donate-button > a {
-    background: #FF5A59 !important;
-    color: #fff !important;
+    background: #FF5A59;
+    color: #FFF;
+    border: none;
 }
 
+#menu-av-menu > li.donate-button > a:focus {
+  border: dotted 1px #A03394;
+}
 
 /* Changes donate button's text color on hover */
 
-#menu-av-menu > li.donate-button > a:hover,
-#menu-av-menu > li.donate-button > a:active {
+#menu-av-menu > li.donate-button > a:hover {
     color: rgb(160, 53, 148) !important;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a {
+  background-color: #A03594;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a:focus {
+    border: dotted 1px #FF5A59;
 }
 
 .headline {
@@ -249,7 +269,7 @@ a.navbar-brand > img {
 }
 
 .quoteBottom {
-    color: #ff5a59;
+    color: #3f3994;;
 }
 
 .fullWidthPhoto {
@@ -294,11 +314,8 @@ img .fullWidth {
     width: 100%;
 }
 
-div .aboutContainer {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.aboutContainer {
+  padding: 80px;
 }
 
 h2 {
@@ -338,7 +355,7 @@ p span {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #fff;
 }
 
 .theFacts {
@@ -423,12 +440,9 @@ button.theFacts {
 }
 
 .getInvolvedContainer {
-    background-color: #ff5a59;
+    background-color: #a03594;
     color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+   padding: 80px;
 }
 
 
@@ -440,15 +454,12 @@ p.donateDesc {
 
 button.giveButton {
     background-color: #fff;
-    color: #ff5a59;
+    color: #a03594;
     border: none;
 }
 
 .involvedEventsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
 }
 
@@ -459,15 +470,12 @@ button.involvedButton {
 }
 
 .volunteerContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: #ff5a59;
+    padding: 80px;
+    color: #3f3994;
 }
 
 button.emailEvents {
-    background-color: #ff5a59;
+    background-color: #3f3994;
     color: #fff;
     border: none;
 }
@@ -477,16 +485,13 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ff5a59;
+    color: #a03594;
 }
 
 .donateContainer {
     background-color: #a03594;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #fff;
+    padding: 80px;
+    color: #ffffff;
 }
 
 .donateTop {
@@ -494,15 +499,13 @@ button.emailEvents {
     top: 200px;
     left: 100px;
     width: 25%;
-    color: #ffffff;
-    background-color: #a03594;
-    padding: 15px;
+    color: #3f3994;
 }
 
 button.donateOnlineButton {
     border: none;
-    background-color: #ffffff;
-    color: #a03594;
+    background-color: #3f3994;
+    color: #ffffff;
 }
 
 .homeImage {
@@ -523,6 +526,31 @@ button.donateOnlineButton {
 	.homeContainer {
 		padding: 20px;
 	}
+
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .involvedEventsContainer{
+        padding: 20px;
+    }
+
+
+    .volunteerContainer{
+        padding: 20px;
+    }
+
+    .getInvolvedContainer{
+        padding: 20px;
+    }
+
+    .donateContainer{
+        padding: 20px;
+    }
+
+    .sponsorsContainer {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -557,11 +585,17 @@ input[type=submit] {
     padding: 10px;
  }
 
- .subscriptionContainer.col-xs-10.col-xs-offset-1 {
-    color: #ff5a59;
+ .subscriptionContainer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #943a92;
 }
 
-
+#subscriptionButton {
+    background-color: #943a92;
+}
 
 /*Changes button opacity to 1 */
 
@@ -569,6 +603,7 @@ input[type=submit] {
 .container p {
     opacity: 1.0 !important;
 }
+
 
 .blog-post-content{
     padding-left: 20px;
@@ -613,6 +648,18 @@ button.voiceButton {
     border: none;
     background-color: #fff;
     color: #A03594;
+}
+
+button.voiceHomeButton {
+    border: none;
+    background-color: #3F3994;
+    color: #fff;
+}
+
+button.voiceHomeButton:hover {
+    border: none;
+    background-color: #FF5A59;
+    color: #fff;
 }
 
 button.voiceButton:hover {
@@ -671,10 +718,7 @@ button.getButtonSmall {
 }
 
 .sponsorsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
 }
 
