@@ -682,6 +682,18 @@ button.voiceButton:hover {
     color: #fff;
 }
 
+button.voiceButtonHome {
+    border: none;
+    background-color: #3F3994;
+    color: #fff;
+}
+
+button.voiceButtonHome:hover {
+    border: none;
+    background-color: #FF5A59;
+    color: #fff;
+}
+
 span.heardTop {
     position: absolute;
     top: 55%;
