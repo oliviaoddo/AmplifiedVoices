@@ -418,10 +418,7 @@ button.theFacts {
 .getInvolvedContainer {
     background-color: #a03594;
     color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+   padding: 80px;
 }
 
 
@@ -438,10 +435,7 @@ button.giveButton {
 }
 
 .involvedEventsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
 }
 
@@ -452,10 +446,7 @@ button.involvedButton {
 }
 
 .volunteerContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding: 80px;
     color: #3f3994;
 }
 
@@ -516,6 +507,19 @@ button.donateOnlineButton {
 	}
 
     .aboutContainer {
+        padding: 20px;
+    }
+
+    .involvedEventsContainer{
+        padding: 20px;
+    }
+
+
+    .volunteerContainer{
+        padding: 20px;
+    }
+
+    .getInvolvedContainer{
         padding: 20px;
     }
 }
