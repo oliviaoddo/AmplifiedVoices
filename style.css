@@ -633,10 +633,14 @@ i.social_googleplus {
 
 .helpTop {
     position: absolute;
-    top: 3%;
+	top: 7%;
     left: 100px;
     width: 35%;
     color: #a03594;
+}
+
+.helptop.thefacts {
+	top: 3%;
 }
 
 .helpTop h1 {
