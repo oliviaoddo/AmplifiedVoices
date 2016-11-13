@@ -24,7 +24,7 @@ Version: 1.0.0
 }
 
 @font-face {
-    font-family: CreteRound-italic;
+    font-family: CreteRound;
     src: url(CreteRound-Italic.otf);
 }
 
@@ -921,4 +921,17 @@ nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.
 .col-xs-12 copyright {
     vertical-align: text-bottom;
     font-size: 75%;
+}
+
+h1, h2 {
+    font-family: Campton-Bold !important;
+}
+
+h3 {
+    font-family: CreteRound !important;
+    font-style: italic !important;
+}
+
+p, h5, h4 {
+    font-family: Campton-Light !important;
 }
