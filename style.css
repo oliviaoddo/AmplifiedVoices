@@ -50,6 +50,15 @@ Version: 1.0.0
     color: #3f3994;
 }
 
+.AboutTop h1 {
+	font-size: 64px;
+    font-weight: bold;
+}
+
+.AboutTop h5 {
+	line-height: 1.5;
+}
+
 .smallMode {
     display: none !important;
 }
