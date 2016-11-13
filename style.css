@@ -365,10 +365,11 @@ p span {
     left: 100px;
     width: 25%;
     color: #ff5a59;
+	line-height: 1.5;
 }
 
-.theFacts {
-	line-height: 1.5;
+.theFacts h1 {
+	color: #fff;
 }
 
 .theFacts h5 {
@@ -411,6 +412,10 @@ button.theFacts {
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+.resourcesBackground.issueContainer {
+	color: #fff !important;
 }
 
 .resourcesBackground.issueContainer h4 {
