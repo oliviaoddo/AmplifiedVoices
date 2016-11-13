@@ -501,9 +501,10 @@ button.theFacts {
 }
 
 .getInvolvedContainer {
-    background-color: #a03594;
+	margin-top: -2px;
+	background-color: #a03594;
     color: #ffffff;
-   padding: 80px;
+   	padding: 80px;	
 }
 
 .donateDesc {
@@ -566,7 +567,7 @@ button.emailEvents {
 
 button.emailEvents:hover {
     color: #3f3994;
-    background-color: #ffffff;
+    background-color: #FF5A59;
 }
 
 /* Events Page Changes */
@@ -632,7 +633,7 @@ i.social_googleplus {
 
 .helpTop {
     position: absolute;
-    top: 7%;
+    top: 3%;
     left: 100px;
     width: 35%;
     color: #a03594;
