@@ -59,13 +59,21 @@ Version: 1.0.0
     color: #443c93;
 }
 
-
 .AboutTop {
     position: absolute;
     top: 3%;
     left: 100px;
     width: 25%;
     color: #3f3994;
+}
+
+.AboutTop h1 {
+	font-size: 64px;
+    font-weight: bold;
+}
+
+.AboutTop h5 {
+	line-height: 1.5;
 }
 
 .smallMode {
@@ -195,21 +203,16 @@ a.navbar-brand > img {
 
 
 /* Changes the nav items font weight and color on hover */
-
 #menu-av-menu > li > a:hover {
-    color: rgb(255, 90, 89) !important;
+    color: #FF5A59 !important;
 }
 
-#menu-av-menu > li.current-menu-item > a {
-    border-bottom: rgb(255, 90, 89);
-}
-
+/* Nav items active styles */
 .navigation-wrapper .navigation .nav > li.current_page_item > a {
   color: #FF5A59 !important;
  }
 
-/* Changes the bg color of Donate button */
-
+/* Donate button styles */
 #menu-av-menu > li.donate-button > a {
     background: #FF5A59;
     border: dotted 3px #FF5A59;
@@ -224,12 +227,7 @@ a.navbar-brand > img {
   border: dotted 3px #A03594;
 }
 
-/* Changes donate button's text color on hover */
-
-#menu-av-menu > li.donate-button > a:hover {
-    color: #FF5A59 !important;
-}
-
+/* Donate button active styles */
 #menu-av-menu > li.donate-button.current_page_item > a {
   background-color: #A03594;
   border: dotted 3px #A03594;
@@ -379,7 +377,7 @@ p span {
 
 .theFacts {
     position: absolute;
-    top: 200px;
+    top: 7%;
     left: 100px;
     width: 25%;
     color: #ff5a59;
@@ -529,10 +527,18 @@ button.emailEvents:hover {
 
 .helpTop {
     position: absolute;
-    top: 200px;
+    top: 7%;
     left: 100px;
     width: 25%;
     color: #a03594;
+}
+
+.helpTop h1 {
+	color: #a03594;
+}
+
+.helpTop h4 {
+	margin-top: 40px;
 }
 
 .donateContainer {
@@ -543,10 +549,15 @@ button.emailEvents:hover {
 
 .donateTop {
     position: absolute;
-    top: 200px;
+    top: 3%;
     left: 100px;
-    width: 25%;
+    width: 55%;
     color: #3f3994;
+}
+
+.donateTop h1 {
+	color: #3F3994;
+	font-size: 64px;
 }
 
 button.donateOnlineButton {
