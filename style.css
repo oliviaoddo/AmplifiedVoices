@@ -600,6 +600,22 @@ button.emailEvents:hover {
 	padding-bottom: 100px;
 }
 
+.blog-post > .entry-content > .post-footer {
+	background-color: #fff;
+}
+
+.blog-post > .entry-content .icons,
+.blog-post > .entry-content .icons > a {
+	color: #4D4D4F;
+	font-size: 1.4em;
+}
+
+.blog-post > .entry-content .icons > a:hover {
+color:#FF5A59;
+}
+
+.post-comments > i,
+.post-comments > span,
 i.social_pinterest,
 i.social_googleplus {
 	display:none;
