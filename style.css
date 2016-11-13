@@ -458,6 +458,11 @@ button.giveButton {
     border: none;
 }
 
+button.giveButton:hover {
+    color: #ffffff;
+    background-color: #a03594;
+}
+
 .involvedEventsContainer {
     padding: 80px;
     color: #a03594;
@@ -469,6 +474,11 @@ button.involvedButton {
     border: none;
 }
 
+button.involvedButton:hover {
+    color: #a03594;
+    background-color: #ffffff;
+}
+
 .volunteerContainer {
     padding: 80px;
     color: #3f3994;
@@ -478,6 +488,11 @@ button.emailEvents {
     background-color: #3f3994;
     color: #fff;
     border: none;
+}
+
+button.emailEvents:hover {
+    color: #3f3994;
+    background-color: #ffffff;
 }
 
 .helpTop {
@@ -507,6 +522,12 @@ button.donateOnlineButton {
     background-color: #3f3994;
     color: #ffffff;
 }
+
+button.donateOnlineButton:hover {
+    color: #3f3994;
+    background-color: transparent;
+}
+
 
 .homeImage {
     margin-bottom: -30px;
