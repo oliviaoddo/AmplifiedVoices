@@ -565,11 +565,17 @@ input[type=submit] {
     padding: 10px;
  }
 
- .subscriptionContainer.col-xs-10.col-xs-offset-1 {
-    color: #ff5a59;
+ .subscriptionContainer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #943a92;
 }
 
-
+#subscriptionButton {
+    background-color: #943a92;
+}
 
 /*Changes button opacity to 1 */
 
@@ -577,6 +583,7 @@ input[type=submit] {
 .container p {
     opacity: 1.0 !important;
 }
+
 
 .blog-post-content{
     padding-left: 20px;
