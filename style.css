@@ -537,6 +537,35 @@ button.emailEvents:hover {
     background-color: #ffffff;
 }
 
+/* Events Page Changes */
+.blog-post-content.entry-summary > h2 > a {
+	color: #3F3994;
+}
+
+.blog-post-content.entry-summary h2 > a:hover {
+	text-decoration: none;
+}
+
+.blog-post-content.entry-summary h2 > a:hover,
+.blog-post-content.entry-summary h2 > a:active {
+	color: #FF5A59;
+}
+
+.author > a {
+	color: #000;
+}
+
+.author > a:hover {
+	text-decoration: none;
+	color: #FF5A59;
+}
+
+.blog-post {
+	padding: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 .helpTop {
     position: absolute;
     top: 7%;
