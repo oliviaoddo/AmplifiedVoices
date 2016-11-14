@@ -483,6 +483,10 @@ button.theFacts {
     text-align: center;
 }
 
+.issueContainerTop p {
+	font-size: 16px;
+}
+
 .issueContainer {
     padding: 80px;
 	color: #4D4D4F;
