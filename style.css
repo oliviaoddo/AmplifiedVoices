@@ -134,10 +134,6 @@ html {
     border: dotted 1px #FF5A59;
 }
 
-button {
-	border: solid 1px transparent;
-}
-
 button:focus {
 	border: dotted 1px #FF5A59 !important;
 }
@@ -788,6 +784,7 @@ button.donateOnlineButton:focus {
 button {
     margin-top: 50px;
     padding: 15px;
+	border: solid 1px transparent !important;
 }
 
 input[type=submit] {
