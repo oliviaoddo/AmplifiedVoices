@@ -21,6 +21,7 @@ Version: 1.0.0
 @font-face {
     font-family: Campton-Light;
     src: url(fonts/Campton-Light.otf);
+<<<<<<< HEAD
 }
 
 @font-face {
@@ -28,6 +29,15 @@ Version: 1.0.0
     src: url(CreteRound-Italic.otf);
 }
 
+=======
+}
+
+@font-face {
+    font-family: CreteRound;
+    src: url(CreteRound-Italic.otf);
+}
+
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 
 /*PATCHES*/
 .sep{
@@ -368,11 +378,23 @@ img .fullWidth {
     padding-right: 100px;
     padding-left: 100px;
     color: #943a92;
+<<<<<<< HEAD
+}
+
+#subscriptionButton {
+    background-color: #943a92;
+=======
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 }
 
 #subscriptionButton {
     background-color: #943a92;
 }
+
+#subscriptionButton:hover {
+    background-color: #FF5A59;
+}
+
 
 h2 {
     font-weight: bold !important;
@@ -499,6 +521,10 @@ button.theFacts {
     color: #ff5a59;
 }
 
+.getInvolvedSub {
+	color: #A03594 !important;
+}
+
 .getInvolvedContainer {
 	margin-top: -2px;
 	background-color: #a03594;
@@ -551,6 +577,10 @@ button.involvedButton:hover {
 
 .volunteerContainer .col-md-6 {
 	padding: 40px;
+<<<<<<< HEAD
+=======
+	width: 40%;
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 }
 
 .volunteerContainer h2 {
@@ -565,11 +595,16 @@ button.emailEvents {
 }
 
 button.emailEvents:hover {
+<<<<<<< HEAD
     color: #3f3994;
+=======
+    color: #fff;
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
     background-color: #FF5A59;
 }
 
 /* Events Page Changes */
+<<<<<<< HEAD
 #page-title {
 	background-color: #3F3994;
 	background-image: url(/wp-content/uploads/2016/11/events-title.png);
@@ -577,6 +612,8 @@ button.emailEvents:hover {
 	background-size: contain;
 }
 
+=======
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 .blog-post-content.entry-summary > h2 > a,
 .post-header {
 	color: #3F3994;
@@ -659,14 +696,29 @@ i.social_googleplus {
 }
 
 .donateContainer {
+<<<<<<< HEAD
     background-color: #a03594;
     padding: 80px;
     color: #ffffff;
+=======
+    margin-top: -1px !important;
+	padding: 120px 600px 120px 80px;
+	background-color: #a03594;
+    color: #ffffff;
+}
+
+.donateContainer h2 {
+	margin-bottom: 25px;
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 }
 
 .donateTop {
     position: absolute;
+<<<<<<< HEAD
     top: 3%;
+=======
+    top: 7%;
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
     left: 100px;
     width: 55%;
     color: #3f3994;
@@ -681,6 +733,7 @@ button.donateOnlineButton {
     border: none;
     background-color: #3f3994;
     color: #ffffff;
+<<<<<<< HEAD
 }
 
 button.donateOnlineButton:hover {
@@ -688,6 +741,15 @@ button.donateOnlineButton:hover {
     background-color: transparent;
 }
 
+=======
+}
+
+button.donateOnlineButton:hover {
+    color: #fff;
+    background-color: #FF5A59;
+}
+
+>>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 
 .homeImage {
     margin-bottom: -30px;
