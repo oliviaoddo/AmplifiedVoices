@@ -952,6 +952,10 @@ button.getButtonSmall {
 	}
 }
 
+.sponsorsCopy a:focus {
+	color: #FF5A59;
+}
+
 .sponsorsLogos {
 	padding: 80px;
 }
