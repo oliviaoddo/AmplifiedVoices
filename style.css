@@ -380,6 +380,7 @@ img .fullWidth {
 
 #subscriptionButton {
     background-color: #943a92;
+	border: solid 3px transparent !important;
 }
 
 #subscriptionButton:hover {
