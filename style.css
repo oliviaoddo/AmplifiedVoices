@@ -658,14 +658,15 @@ i.social_googleplus {
 }
 
 .donateContainer {
-    background-color: #a03594;
-    padding: 80px;
+    margin-top: -1px !important;
+	padding: 120px 600px 120px 80px;
+	background-color: #a03594;
     color: #ffffff;
 }
 
 .donateTop {
     position: absolute;
-    top: 3%;
+    top: 7%;
     left: 100px;
     width: 55%;
     color: #3f3994;
