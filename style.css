@@ -477,6 +477,12 @@ button.theFacts {
 	color: #FFA71A;
 }
 
+.issueContainerTop {
+    padding: 80px;
+    color: #4D4D4F;
+    text-align: center;
+}
+
 .issueContainer {
     padding: 80px;
 	color: #4D4D4F;
