@@ -153,6 +153,10 @@ button:focus {
     height: auto;
 }
 
+/* changes focus border of newsletter subscription form */
+.site .site-main input[type="text"]:focus, .site .site-main input[type="email"]:focus, .site .site-main input[type="search"]:focus, .site .site-main input[type="password"]:focus, .site .site-main textarea:focus {
+	border-color: #A03594;
+}
 
 /*HEADER*/
 
@@ -382,6 +386,10 @@ img .fullWidth {
     background-color: #FF5A59 !important;
 }
 
+#subscriptionButton:focus {
+	outline: solid 1px #FFA71A !important;
+	border: dotted 3px #FFA71A !important;
+}
 
 h2 {
     font-weight: bold !important;
