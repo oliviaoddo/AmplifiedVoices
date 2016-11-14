@@ -731,7 +731,7 @@ button.donateOnlineButton:hover {
 }
 
 button.donateOnlineButton:focus {
-	border: dotted 1px #FF5A59;
+	border: dotted 1px #FF5A59 !important;
 }
 
 .homeImage {
