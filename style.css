@@ -392,7 +392,7 @@ img .fullWidth {
 }
 
 #subscriptionButton:hover {
-    background-color: #FF5A59;
+    background-color: #FF5A59 !important;
 }
 
 
