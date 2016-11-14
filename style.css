@@ -664,6 +664,10 @@ i.social_googleplus {
     color: #ffffff;
 }
 
+.donateContainer h2 {
+	margin-bottom: 25px;
+}
+
 .donateTop {
     position: absolute;
     top: 7%;
@@ -684,7 +688,7 @@ button.donateOnlineButton {
 }
 
 button.donateOnlineButton:hover {
-    color: #3f3994;
+    color: #fff;
     background-color: #FF5A59;
 }
 
