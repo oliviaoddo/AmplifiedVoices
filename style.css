@@ -1,4 +1,4 @@
-    @charset "utf-8";
+@charset "utf-8";
 
 /* CSS Document */
 
@@ -12,57 +12,36 @@ Template: anaglyph-lite
 Version: 1.0.0
 */
 
+/*FONTS*/
+@font-face {
+    font-family: Campton-Bold;
+    src: url(fonts/Campton-Bold.otf);
+}
+
+@font-face {
+    font-family: Campton-Light;
+    src: url(fonts/Campton-Light.otf);
+}
+
+@font-face {
+    font-family: CreteRound;
+    src: url(CreteRound-Italic.otf);
+}
+
 
 /*PATCHES*/
-@media (max-width: 990px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-}
-.sep {
+.sep{
     margin-bottom: 50px !important;
 }
+
 
 .entry-content h2 {
     margin-bottom: 8px;
 }
-
 .ButtonPatcher {
     background-color: #fff;
     color: #ff5a59;
     border: none;
-    float: right;
     margin-top: 5px;
 }
 
@@ -81,10 +60,19 @@ Version: 1.0.0
 
 .AboutTop {
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 100px;
     width: 25%;
-    color: #943a92;
+    color: #3f3994;
+}
+
+.AboutTop h1 {
+	font-size: 64px;
+    font-weight: bold;
+}
+
+.AboutTop h5 {
+	line-height: 1.5;
 }
 
 .smallMode {
@@ -95,7 +83,11 @@ Version: 1.0.0
     display: block !important;
 }
 
-@media screen and (max-width:1024px) {
+.Rowling {
+	float: right;
+}
+
+@media screen and (max-width:1023px) {
     .theFacts {
         display: none !important;
     }
@@ -122,7 +114,6 @@ Version: 1.0.0
         margin-bottom: 30px;
     }
 }
-
 
 /*PATCH END*/
 
@@ -161,9 +152,15 @@ html {
 
 /*HEADER*/
 
+a.navbar-brand {
+  border: dotted 1px #FFF;
+}
+
+a.navbar-brand:focus {
+    border: dotted 1px #FF5A59;
+}
 
 /* Sets logo width and height */
-
 a.navbar-brand > img {
     width: 200px !important;
     height: 57px !important;
@@ -184,14 +181,14 @@ a.navbar-brand > img {
 
 #menu-av-menu > li > a {
     color: rgb(160, 53, 148);
-    border: dotted 1px rgba(255, 255, 255, 0);
+    border: dotted 1px #FFF;
 }
 
 #menu-av-menu > li > a:focus {
     border: dotted 1px #FF5A59;
 }
 
-#menu-av-menu >li {
+#menu-av-menu > li {
     padding-left: 20px;
 }
 
@@ -205,29 +202,42 @@ a.navbar-brand > img {
 
 
 /* Changes the nav items font weight and color on hover */
-
 #menu-av-menu > li > a:hover {
-    color: rgb(255, 90, 89) !important;
+    color: #FF5A59 !important;
 }
 
-#menu-av-menu > li.current-menu-item > a {
-    border-bottom: rgb(255, 90, 89);
-}
+/* Nav items active styles */
+.navigation-wrapper .navigation .nav > li.current_page_item > a {
+  color: #FF5A59 !important;
+ }
 
-
-/* Changes the bg color of Donate button */
-
+/* Donate button styles */
 #menu-av-menu > li.donate-button > a {
-    background: #FF5A59 !important;
-    color: #fff !important;
+    background: #FF5A59;
+    border: dotted 3px #FF5A59;
+    color: #FFF !important;
 }
 
+#menu-av-menu > li.donate-button > a:hover {
+    color: #A03594 !important;
+}
 
-/* Changes donate button's text color on hover */
+#menu-av-menu > li.donate-button > a:focus {
+  border: dotted 3px #A03594;
+}
 
-#menu-av-menu > li.donate-button > a:hover,
-#menu-av-menu > li.donate-button > a:active {
-    color: rgb(160, 53, 148) !important;
+/* Donate button active styles */
+#menu-av-menu > li.donate-button.current_page_item > a {
+  background-color: #A03594;
+  border: dotted 3px #A03594;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a:hover {
+    color: #FF5A59 !important;
+}
+
+#menu-av-menu > li.donate-button.current_page_item > a:focus {
+    border: dotted 3px #FF5A59;
 }
 
 .headline {
@@ -252,6 +262,7 @@ a.navbar-brand > img {
 .bioName {
     color: #a03594;
     display: inline;
+	margin: 0px 0px 40px 40px;
 }
 
 .bioTitle {
@@ -262,6 +273,7 @@ a.navbar-brand > img {
 
 .bioDescription {
     color: #a03594;
+	margin: 15px 80px 10px 40px;
 }
 
 #aboutBackground {
@@ -272,6 +284,7 @@ a.navbar-brand > img {
 
 .aboutTitle {
     color: #ffffff;
+	margin-bottom: 0px !important;
 }
 
 .aboutDesc {
@@ -283,7 +296,7 @@ a.navbar-brand > img {
 }
 
 .quoteBottom {
-    color: #ff5a59;
+    color: #3f3994;;
 }
 
 .fullWidthPhoto {
@@ -312,12 +325,15 @@ img .fullWidth {
     top: -100px;
 }
 
-.entry-summary {
+
+.entry-summary{
     padding-right: 20px !important;
     padding-bottom: 10px !important;
     padding-left: 20px !important;
-    padding-top: 10px !important;
+    padding-top:10px !important;
 }
+
+
 
 .container {
     margin: 0 !important;
@@ -325,11 +341,37 @@ img .fullWidth {
     width: 100%;
 }
 
-div .aboutContainer {
-    padding-right: 20px;
-    padding-left: 20px;
+.aboutContainer {
+  padding: 80px 80px 160px 80px;
+}
+
+.aboutContainer h2 {
+	margin-bottom: 120px;
+}
+
+.aboutContainer img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.aboutContainerMiddle {
+	padding: 80px;
+}
+
+.aboutContainerBottom {
+	padding: 80px;
+}
+
+.subscriptionContainer {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #943a92;
+}
+
+#subscriptionButton {
+    background-color: #943a92;
 }
 
 h2 {
@@ -366,10 +408,21 @@ p span {
 
 .theFacts {
     position: absolute;
-    top: 200px;
+    top: 3%;
     left: 100px;
     width: 25%;
     color: #ff5a59;
+	line-height: 1.5;
+}
+
+.theFacts h1 {
+	color: #fff;
+}
+
+.theFacts h3 {
+    color: #fff;
+    max-width: 60%;
+    margin: 0px;
 }
 
 button.theFacts {
@@ -378,20 +431,60 @@ button.theFacts {
     border: none;
 }
 
+.everyMonth {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.anually {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.runaway {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.common {
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+
 .resourcesBackground {
-    background-color: #ff5a59;
-    color: white;
+    background-color: #A03594;
+    color: white !important;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
+.resourcesBackground.issueContainer {
+	color: #fff !important;
+}
+
+.resourcesBackground.issueContainer h4 {
+	margin-top: 30px !important;
+	text-transform: none !important;
+}
+
+.resourcesBackground.issueContainer a {
+	color: #FFA71A;
+}
+
 .issueContainer {
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
+    padding: 80px;
+	color: #4D4D4F;
+}
+
+.issueContainer h4 {
+	text-traansform: none !important;
+	margin: 0px !important;
+}
+
+.issueContainer p {
+	margin: 0px;
 }
 
 .issueBlue {
@@ -407,30 +500,34 @@ button.theFacts {
 }
 
 .getInvolvedContainer {
-    background-color: #ff5a59;
+	margin-top: -2px;
+	background-color: #a03594;
     color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+   	padding: 80px;
+}
+
+.donateDesc {
+	margin-top: 35px;
 }
 
 p.donateDesc {
-    font-style: italic;
+    font-style: none;
     color: #fff;
 }
 
 button.giveButton {
     background-color: #fff;
-    color: #ff5a59;
+    color: #a03594;
     border: none;
 }
 
+button.giveButton:hover {
+    color: #ffffff;
+    background-color: #FF5A59;
+}
+
 .involvedEventsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px 80px 30px 80px;
     color: #a03594;
 }
 
@@ -438,50 +535,159 @@ button.involvedButton {
     background-color: #a03594;
     color: #fff;
     border: none;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+button.involvedButton:hover {
+    color: #fff;
+    background-color: #FF5A59;
 }
 
 .volunteerContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: #ff5a59;
+    padding: 80px;
+    color: #3f3994;
+}
+
+.volunteerContainer .col-md-6 {
+	padding: 40px;
+}
+
+.volunteerContainer h2 {
+	margin-top: 40px;
+	margin-bottom: 0px;
 }
 
 button.emailEvents {
-    background-color: #ff5a59;
+    background-color: #3f3994;
     color: #fff;
     border: none;
+}
+
+button.emailEvents:hover {
+    color: #3f3994;
+    background-color: #FF5A59;
+}
+
+/* Events Page Changes */
+#page-title {
+	background-color: #3F3994;
+	background-image: url(/wp-content/uploads/2016/11/events-title.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.blog-post-content.entry-summary > h2 > a,
+.post-header {
+	color: #3F3994;
+}
+
+.blog-post-content.entry-summary h2 > a:hover {
+	text-decoration: none;
+}
+
+.blog-post-content.entry-summary h2 > a:hover,
+.blog-post-content.entry-summary h2 > a:active {
+	color: #FF5A59;
+}
+
+.author > a,
+.post-author > a {
+	color: #000;
+}
+
+.author > a:hover,
+.post-author > a:hover {
+	text-decoration: none;
+	color: #FF5A59;
+}
+
+.blog-post {
+  padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Cancels out Read More animation */
+.read-more {
+	padding-left: 2px;
+}
+
+.read-more > a:hover {
+	color: #FF5A59;
+	text-decoration: none;
+}
+
+.blog-post > .entry-content > .post-footer {
+	background-color: #fff;
+}
+
+.blog-post > .entry-content .icons,
+.blog-post > .entry-content .icons > a {
+	color: #4D4D4F;
+}
+
+.blog-post > .entry-content .icons > a:hover {
+color:#FF5A59;
+}
+
+.post-comments > i,
+.post-comments > span,
+i.social_pinterest,
+i.social_googleplus {
+	display:none;
 }
 
 .helpTop {
     position: absolute;
-    top: 200px;
+	top: 7%;
     left: 100px;
-    width: 25%;
-    color: #ff5a59;
+    width: 35%;
+    color: #a03594;
+}
+
+.helptop.thefacts {
+	top: 3%;
+}
+
+.helpTop h1 {
+	color: #a03594;
+}
+
+.helpTop h4 {
+	margin-top: 40px;
 }
 
 .donateContainer {
     background-color: #a03594;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #fff;
+    padding: 80px;
+    color: #ffffff;
 }
 
 .donateTop {
     position: absolute;
-    top: 200px;
+    top: 3%;
     left: 100px;
-    width: 25%;
-    color: #ff5a59;
+    width: 55%;
+    color: #3f3994;
+}
+
+.donateTop h1 {
+	color: #3F3994;
+	font-size: 64px;
 }
 
 button.donateOnlineButton {
     border: none;
+    background-color: #3f3994;
+    color: #ffffff;
 }
+
+button.donateOnlineButton:hover {
+    color: #3f3994;
+    background-color: transparent;
+}
+
 
 .homeImage {
     margin-bottom: -30px;
@@ -490,26 +696,60 @@ button.donateOnlineButton {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-    padding: 80px;
+	padding: 80px;
+}
+
+.homeContainer h5 {
+	padding-right: 20px;
 }
 
 @media screen and (max-width:1024px) {
-    .homeContainer {
+	.homeContainer {
+		padding: 20px;
+	}
+
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .involvedEventsContainer{
+        padding: 20px;
+    }
+
+
+    .volunteerContainer{
+        padding: 20px;
+    }
+
+    .getInvolvedContainer{
+        padding: 20px;
+    }
+
+    .donateContainer{
+        padding: 20px;
+    }
+
+    .sponsorsContainer {
+        padding: 20px;
+    }
+
+    .subscriptionContainer {
         padding: 20px;
     }
 }
 
 @media screen and (max-width:1024px) {
-    .homeContainerBottom {
-        padding: 0px !important;
-    }
+	.homeContainerBottom {
+		padding: 0px !important;
+	}
 }
 
 @media screen and (max-width:1024px) {
-    .sponsorButton {
-        margin-bottom: 20px;
-        margin-left: 15px;
-    }
+	.sponsorButton {
+		margin-bottom: 20px;
+    	margin-left: 15px;
+
+	}
 }
 
 .homeContainer h5 {
@@ -528,12 +768,7 @@ input[type=submit] {
     border: none;
     color: white;
     padding: 10px;
-}
-
-.subscriptionContainer.col-xs-10.col-xs-offset-1 {
-    color: #ff5a59;
-}
-
+ }
 
 /*Changes button opacity to 1 */
 
@@ -542,8 +777,8 @@ input[type=submit] {
     opacity: 1.0 !important;
 }
 
-.blog-post-content {
-    padding-left: 20px;
+
+.blog-post-content{
     padding-left: 20px;
 }
 
@@ -553,19 +788,59 @@ button.planButton {
     border: none;
 }
 
+button.planButton:hover {
+    background-color: #3F3994;
+	color: #fff;
+}
+
 .homeTop {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 100px;
     width: 35%;
-    color: #fff;
-    background-color: rgb(63, 57, 148);
-    padding: 25px;
+    color: #3F3994;
+}
+
+@media screen and (max-width:1225px) {
+	.homeTop {
+		top: 70px !important;
+	}
+}
+
+.homeTop h1 {
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.homeTop h3 {
+	margin-top: 40px;
+}
+
+h3.without {
+	margin-bottom: 40px;
 }
 
 button.voiceButton {
     border: none;
-    background-color: #ff5a59;
+    background-color: #fff;
+    color: #A03594;
+}
+
+button.voiceButton:hover {
+    border: none;
+    background-color: #FF5A59;
+    color: #fff;
+}
+
+button.voiceButtonHome {
+    border: none;
+    background-color: #3F3994;
+    color: #fff;
+}
+
+button.voiceButtonHome:hover {
+    border: none;
+    background-color: #FF5A59;
     color: #fff;
 }
 
@@ -578,7 +853,7 @@ span.heardTop {
 }
 
 span.heardTop h5 {
-    line-height: 1.5;
+	line-height: 1.5;
 }
 
 button.getButton {
@@ -587,9 +862,14 @@ button.getButton {
     border: none;
 }
 
+button.getButton:hover {
+    background-color: #fff;
+	color: #3F3994;
+}
+
 .homeContainerBottom {
     padding: 80px;
-    color: #3f3994;
+	color: #3f3994;
 }
 
 h4.without {
@@ -602,6 +882,10 @@ button.sponsorButton {
     border: none;
 }
 
+button.sponsorButton:hover {
+    background-color: #FF5A59;
+}
+
 button.getButtonSmall {
     color: #ffffff;
     background-color: #3f3994;
@@ -610,11 +894,41 @@ button.getButtonSmall {
 }
 
 .sponsorsContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
     color: #a03594;
+}
+
+/* Sponsors page headline and subhead text */
+.sponsorsCopy {
+	background-color: #3F3994;
+    color: #fff;
+    padding: 80px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsCopy {
+    	padding: 20px;
+	}
+}
+
+.sponsorsLogos {
+	padding: 80px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsLogos {
+    	padding: 20px;
+	}
+}
+
+.sponsorsLogos img {
+	margin: 40px;
+}
+
+@media screen and (max-width:1024px) {
+	.sponsorsLogos img {
+    	margin: 20px;
+	}
 }
 
 h5.sponsors {
@@ -676,29 +990,56 @@ footer h5 {
     text-align: right;
 }
 
+.footer-AV-logo {
+    float: right !important;
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px)	{
+	.footer-AV-logo {
+		float: left !important;
+	}
+}
+
+.social-logo {
+    background-color: white;
+}
+
+.social-logo:hover {
+    background-color: #FF5A59;
+}
+
 @media (max-width: 997px) {
-    .navigation-wrapper .navigation .navbar .navbar-collapse {
-        background-color: #ffffff;
+.navigation-wrapper .navigation .navbar .navbar-collapse {
+    background-color: #ffffff;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .right {
+        text-align: left !important;
     }
-    @media screen and (max-width: 997px) {
-        .right {
-            text-align: left !important;
-        }
-        nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in,
-        nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
-            overflow-x: hidden;
-        }
+}
+
+@media screen and (max-width: 997px) {
+nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
+      overflow-x: hidden;
     }
-    .col-xs-12 copyright {
-        vertical-align: text-bottom;
-        font-size: 75%;
-    }
-    .footer-AV-logo {
-        float: right;
-    }
-    footer .social-logo {
-        background-color: white;
-    }
-    footer .social-logo:hover {
-        background-color: #FF5A59;
-    }
+}
+
+.col-xs-12 copyright {
+    vertical-align: text-bottom;
+    font-size: 75%;
+}
+
+h1, h2 {
+    font-family: Campton-Bold !important;
+}
+
+h3 {
+    font-family: CreteRound !important;
+    font-style: italic !important;
+}
+
+p, h5, h4 {
+    font-family: Campton-Light !important;
+}
