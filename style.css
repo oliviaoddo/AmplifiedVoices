@@ -135,8 +135,8 @@ html {
 }
 
 button:focus {
-	outline: solid 1px #ff5a59 !important;
-	border: dotted 3px #FF5A59 !important;
+	outline: solid 1px #FFA71A !important;
+	border: dotted 3px #FFA71A !important;
 }
 
 .site .skip-link {
@@ -785,7 +785,7 @@ button.donateOnlineButton:focus {
 button {
     margin-top: 50px;
     padding: 15px;
-	border: solid 1px transparent !important;
+	border: solid 3px transparent !important;
 }
 
 input[type=submit] {
