@@ -1007,7 +1007,7 @@ footer a:active {
     color: #FF5A59 !important;
 }
 
-footer a:focus {
+footer a:focus > img-social-logo {
     color: #FF5A59 !important;
     text-decoration: none;
 }
