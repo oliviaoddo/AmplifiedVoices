@@ -21,23 +21,12 @@ Version: 1.0.0
 @font-face {
     font-family: Campton-Light;
     src: url(fonts/Campton-Light.otf);
-<<<<<<< HEAD
 }
 
 @font-face {
     font-family: CreteRound;
     src: url(CreteRound-Italic.otf);
 }
-
-=======
-}
-
-@font-face {
-    font-family: CreteRound;
-    src: url(CreteRound-Italic.otf);
-}
-
->>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 
 /*PATCHES*/
 .sep{
@@ -378,13 +367,6 @@ img .fullWidth {
     padding-right: 100px;
     padding-left: 100px;
     color: #943a92;
-<<<<<<< HEAD
-}
-
-#subscriptionButton {
-    background-color: #943a92;
-=======
->>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 }
 
 #subscriptionButton {
@@ -577,10 +559,7 @@ button.involvedButton:hover {
 
 .volunteerContainer .col-md-6 {
 	padding: 40px;
-<<<<<<< HEAD
-=======
 	width: 40%;
->>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 }
 
 .volunteerContainer h2 {
@@ -595,25 +574,12 @@ button.emailEvents {
 }
 
 button.emailEvents:hover {
-<<<<<<< HEAD
-    color: #3f3994;
-=======
     color: #fff;
->>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
     background-color: #FF5A59;
 }
 
 /* Events Page Changes */
-<<<<<<< HEAD
-#page-title {
-	background-color: #3F3994;
-	background-image: url(/wp-content/uploads/2016/11/events-title.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-}
 
-=======
->>>>>>> 625a98c9cf11f3fef0d812b51830caee0bbfe1f7
 .blog-post-content.entry-summary > h2 > a,
 .post-header {
 	color: #3F3994;
@@ -1069,8 +1035,48 @@ footer h5 {
     }
 }
 
-@media screen and (max-width: 997px) {
-nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+  		position:relative;
+  		margin-top: 4px;
+  		display: block;
+    }
+    .icon-bar {
+		background-color: #292422;
+	}
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display: block !important;
+    }
+    nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in,
+    nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
       overflow-x: hidden;
     }
 }
