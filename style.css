@@ -500,6 +500,10 @@ button.theFacts {
     color: #ff5a59;
 }
 
+.getInvolvedSub {
+	color: #fff !important;
+}
+
 .getInvolvedContainer {
 	margin-top: -2px;
 	background-color: #a03594;
@@ -552,6 +556,7 @@ button.involvedButton:hover {
 
 .volunteerContainer .col-md-6 {
 	padding: 40px;
+	width: 40%;
 }
 
 .volunteerContainer h2 {
@@ -566,7 +571,7 @@ button.emailEvents {
 }
 
 button.emailEvents:hover {
-    color: #3f3994;
+    color: #fff;
     background-color: #FF5A59;
 }
 
