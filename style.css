@@ -135,7 +135,8 @@ html {
 }
 
 button:focus {
-	border: dotted 1px #FF5A59 !important;
+	outline: solid 1px #ff5a59 !important;
+	border: dotted 3px #FF5A59 !important;
 }
 
 .site .skip-link {
