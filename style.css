@@ -504,7 +504,7 @@ button.theFacts {
 	margin-top: -2px;
 	background-color: #a03594;
     color: #ffffff;
-   	padding: 80px;	
+   	padding: 80px;
 }
 
 .donateDesc {
@@ -571,6 +571,13 @@ button.emailEvents:hover {
 }
 
 /* Events Page Changes */
+#page-title {
+	background-color: #3F3994;
+	background-image: url(/wp-content/uploads/2016/11/events-title.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 .blog-post-content.entry-summary > h2 > a,
 .post-header {
 	color: #3F3994;
@@ -597,6 +604,7 @@ button.emailEvents:hover {
 }
 
 .blog-post {
+  padding-top: 25px;
 	padding-left: 100px;
 	padding-right: 100px;
 }
