@@ -134,6 +134,10 @@ html {
     border: dotted 1px #FF5A59;
 }
 
+button {
+	border: solid 1px transparent;
+}
+
 button:focus {
 	border: dotted 1px #FF5A59 !important;
 }
