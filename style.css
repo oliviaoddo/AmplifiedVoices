@@ -28,6 +28,16 @@ Version: 1.0.0
     src: url(CreteRound-Italic.otf);
 }
 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(Roboto-Thin.ttf);
+}
+
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -1121,5 +1131,5 @@ h3 {
 }
 
 p, h5, h4 {
-    font-family: Campton-Light !important;
+    font-family: Roboto-Thin !important;
 }
