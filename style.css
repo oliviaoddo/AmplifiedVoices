@@ -28,7 +28,6 @@ Version: 1.0.0
     src: url(CreteRound-Italic.otf);
 }
 
-
 /*PATCHES*/
 .sep{
     margin-bottom: 50px !important;
@@ -42,7 +41,6 @@ Version: 1.0.0
     background-color: #fff;
     color: #ff5a59;
     border: none;
-    float: right;
     margin-top: 5px;
 }
 
@@ -136,6 +134,11 @@ html {
     border: dotted 1px #FF5A59;
 }
 
+button:focus {
+	outline: solid 1px #FFA71A !important;
+	border: dotted 3px #FFA71A !important;
+}
+
 .site .skip-link {
     display: none;
 }
@@ -150,6 +153,10 @@ html {
     height: auto;
 }
 
+/* changes focus border of newsletter subscription form */
+.site .site-main input[type="text"]:focus, .site .site-main input[type="email"]:focus, .site .site-main input[type="search"]:focus, .site .site-main input[type="password"]:focus, .site .site-main textarea:focus {
+	border-color: #A03594;
+}
 
 /*HEADER*/
 
@@ -263,6 +270,7 @@ a.navbar-brand > img {
 .bioName {
     color: #a03594;
     display: inline;
+	margin: 0px 0px 40px 40px;
 }
 
 .bioTitle {
@@ -273,6 +281,7 @@ a.navbar-brand > img {
 
 .bioDescription {
     color: #a03594;
+	margin: 15px 80px 10px 40px;
 }
 
 #aboutBackground {
@@ -283,6 +292,7 @@ a.navbar-brand > img {
 
 .aboutTitle {
     color: #ffffff;
+	margin-bottom: 0px !important;
 }
 
 .aboutDesc {
@@ -340,7 +350,24 @@ img .fullWidth {
 }
 
 .aboutContainer {
-  padding: 80px;
+  padding: 80px 80px 160px 80px;
+}
+
+.aboutContainer h2 {
+	margin-bottom: 120px;
+}
+
+.aboutContainer img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.aboutContainerMiddle {
+	padding: 80px;
+}
+
+.aboutContainerBottom {
+	padding: 80px;
 }
 
 .subscriptionContainer {
@@ -353,6 +380,16 @@ img .fullWidth {
 
 #subscriptionButton {
     background-color: #943a92;
+	border: solid 3px transparent !important;
+}
+
+#subscriptionButton:hover {
+    background-color: #FF5A59 !important;
+}
+
+#subscriptionButton:focus {
+	outline: solid 1px #FFA71A !important;
+	border: dotted 3px #FFA71A !important;
 }
 
 h2 {
@@ -389,7 +426,7 @@ p span {
 
 .theFacts {
     position: absolute;
-    top: 7%;
+    top: 3%;
     left: 100px;
     width: 25%;
     color: #ff5a59;
@@ -400,11 +437,10 @@ p span {
 	color: #fff;
 }
 
-.theFacts h5 {
-	line-height: 1.5;
-    color: white;
-    max-width: 200px;
-    margin-top: 40px;
+.theFacts h3 {
+    color: #fff;
+    max-width: 60%;
+    margin: 0px;
 }
 
 button.theFacts {
@@ -455,6 +491,16 @@ button.theFacts {
 	color: #FFA71A;
 }
 
+.issueContainerTop {
+    padding: 80px;
+    color: #4D4D4F;
+    text-align: center;
+}
+
+.issueContainerTop p {
+	font-size: 16px;
+}
+
 .issueContainer {
     padding: 80px;
 	color: #4D4D4F;
@@ -481,16 +527,23 @@ button.theFacts {
     color: #ff5a59;
 }
 
-.getInvolvedContainer {
-    background-color: #a03594;
-    color: #ffffff;
-   padding: 80px;
+.getInvolvedSub {
+	color: #A03594 !important;
 }
 
+.getInvolvedContainer {
+	margin-top: -2px;
+	background-color: #a03594;
+    color: #ffffff;
+   	padding: 80px;
+}
 
+.donateDesc {
+	margin-top: 35px;
+}
 
 p.donateDesc {
-    font-style: italic;
+    font-style: none;
     color: #fff;
 }
 
@@ -502,11 +555,11 @@ button.giveButton {
 
 button.giveButton:hover {
     color: #ffffff;
-    background-color: #a03594;
+    background-color: #FF5A59;
 }
 
 .involvedEventsContainer {
-    padding: 80px;
+    padding: 80px 80px 30px 80px;
     color: #a03594;
 }
 
@@ -514,16 +567,28 @@ button.involvedButton {
     background-color: #a03594;
     color: #fff;
     border: none;
+	margin-top: 0px;
+	margin-bottom: 100px;
 }
 
 button.involvedButton:hover {
-    color: #a03594;
-    background-color: #ffffff;
+    color: #fff;
+    background-color: #FF5A59;
 }
 
 .volunteerContainer {
     padding: 80px;
     color: #3f3994;
+}
+
+.volunteerContainer .col-md-6 {
+	padding: 40px;
+	width: 40%;
+}
+
+.volunteerContainer h2 {
+	margin-top: 40px;
+	margin-bottom: 0px;
 }
 
 button.emailEvents {
@@ -533,16 +598,83 @@ button.emailEvents {
 }
 
 button.emailEvents:hover {
-    color: #3f3994;
-    background-color: #ffffff;
+    color: #fff;
+    background-color: #FF5A59;
+}
+
+/* Events Page Changes */
+
+.blog-post-content.entry-summary > h2 > a,
+.post-header {
+	color: #3F3994;
+}
+
+.blog-post-content.entry-summary h2 > a:hover {
+	text-decoration: none;
+}
+
+.blog-post-content.entry-summary h2 > a:hover,
+.blog-post-content.entry-summary h2 > a:active {
+	color: #FF5A59;
+}
+
+.author > a,
+.post-author > a {
+	color: #000;
+}
+
+.author > a:hover,
+.post-author > a:hover {
+	text-decoration: none;
+	color: #FF5A59;
+}
+
+.blog-post {
+  padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Cancels out Read More animation */
+.read-more {
+	padding-left: 2px;
+}
+
+.read-more > a:hover {
+	color: #FF5A59;
+	text-decoration: none;
+}
+
+.blog-post > .entry-content > .post-footer {
+	background-color: #fff;
+}
+
+.blog-post > .entry-content .icons,
+.blog-post > .entry-content .icons > a {
+	color: #4D4D4F;
+}
+
+.blog-post > .entry-content .icons > a:hover {
+color:#FF5A59;
+}
+
+.post-comments > i,
+.post-comments > span,
+i.social_pinterest,
+i.social_googleplus {
+	display:none;
 }
 
 .helpTop {
     position: absolute;
-    top: 7%;
+	top: 7%;
     left: 100px;
-    width: 25%;
+    width: 35%;
     color: #a03594;
+}
+
+.helptop.thefacts {
+	top: 3%;
 }
 
 .helpTop h1 {
@@ -555,13 +687,18 @@ button.emailEvents:hover {
 
 .donateContainer {
     background-color: #a03594;
-    padding: 80px;
+    margin-top: -1px !important;
+	padding: 120px 600px 120px 80px;
     color: #ffffff;
+}
+
+.donateContainer h2 {
+	margin-bottom: 25px;
 }
 
 .donateTop {
     position: absolute;
-    top: 3%;
+    top: 7%;
     left: 100px;
     width: 55%;
     color: #3f3994;
@@ -579,10 +716,13 @@ button.donateOnlineButton {
 }
 
 button.donateOnlineButton:hover {
-    color: #3f3994;
-    background-color: transparent;
+    color: #fff;
+    background-color: #FF5A59;
 }
 
+button.donateOnlineButton:focus {
+	border: dotted 1px #FF5A59 !important;
+}
 
 .homeImage {
     margin-bottom: -30px;
@@ -654,6 +794,7 @@ button.donateOnlineButton:hover {
 button {
     margin-top: 50px;
     padding: 15px;
+	border: solid 3px transparent !important;
 }
 
 input[type=submit] {
@@ -707,9 +848,12 @@ button.planButton:hover {
 	font-weight: bold;
 }
 
-.homeTop h4 {
-	line-height: 1.5;
+.homeTop h3 {
 	margin-top: 40px;
+}
+
+h3.without {
+	margin-bottom: 40px;
 }
 
 button.voiceButton {
@@ -801,6 +945,10 @@ button.getButtonSmall {
 	.sponsorsCopy {
     	padding: 20px;
 	}
+}
+
+.sponsorsCopy a:focus {
+	color: #FF5A59;
 }
 
 .sponsorsLogos {
@@ -912,8 +1060,48 @@ footer h5 {
     }
 }
 
-@media screen and (max-width: 997px) {
-nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in, nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+  		position:relative;
+  		margin-top: 4px;
+  		display: block;
+    }
+    .icon-bar {
+		background-color: #292422;
+	}
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display: block !important;
+    }
+    nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in,
+    nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
       overflow-x: hidden;
     }
 }
