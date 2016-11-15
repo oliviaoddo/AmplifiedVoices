@@ -781,6 +781,14 @@ button.donateOnlineButton:focus {
     .subscriptionContainer {
         padding: 20px;
     }
+
+    .blog-post {
+    	padding: 20px;
+    }
+
+    .icons > a i {
+    	float: inherit !important;
+    }
 }
 
 @media screen and (max-width:1024px) {
