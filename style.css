@@ -25,17 +25,17 @@ Version: 1.0.0
 
 @font-face {
     font-family: CreteRound;
-    src: url(CreteRound-Italic.otf);
+    src: url(fonts/CreteRound-Italic.otf);
 }
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url(Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: Roboto-Thin;
-    src: url(Roboto-Thin.ttf);
+    src: url(fonts/Roboto-Thin.ttf);
 }
 
 /*PATCHES*/
