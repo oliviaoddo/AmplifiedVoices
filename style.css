@@ -1070,6 +1070,7 @@ footer p {
 footer a {
     padding-bottom: 3px;
     color: white;
+    border: dotted 1px #353994;
 }
 
 footer a:active {
@@ -1079,6 +1080,7 @@ footer a:active {
 footer a:focus {
     color: #FF5A59 !important;
     text-decoration: none;
+    border: dotted 1px #FF5A59;
 }
 
 footer a:hover {
