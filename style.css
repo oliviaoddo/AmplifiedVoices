@@ -238,6 +238,7 @@ a.navbar-brand:focus {
     margin-top: 0px !important;
 	position: relative;
 	top: -10px;
+	left: 10px;
 }
 
 
