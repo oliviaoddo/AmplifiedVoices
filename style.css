@@ -226,6 +226,10 @@ a.navbar-brand:focus {
     background-repeat: no-repeat;
 }
 
+.navbar-brand nav {
+	position: relative;
+	top: -10px;
+}
 
 /* Sets nav background on home page to white */
 
@@ -235,12 +239,8 @@ a.navbar-brand:focus {
     padding-bottom: 0px !important;
 }
 
-/* Sets nav background on home page to white */
-
-.navigation-wrapper .navigation {
-    background-color: #fff;
-    padding-top: 15px !important;
-    padding-bottom: 0px !important;
+.navigation-wrapper .navigation .navbar .navbar-brand {
+    margin-top: 0px !important;
 }
 
 
