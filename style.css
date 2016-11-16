@@ -720,6 +720,7 @@ button.emailEvents:hover {
 
 .blog-post > .entry-content .icons,
 .blog-post > .entry-content .icons > a {
+    border: none;
     color: #4D4D4F;
 }
 
