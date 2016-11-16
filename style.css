@@ -210,13 +210,29 @@ a.navbar-brand:focus {
 
 
 /* Sets logo width and height */
-
-a.navbar-brand > img {
-    width: 200px !important;
-    height: 57px !important;
-    margin-top: -15px;
+.navbar-header {
+    padding: 10px;
 }
 
+.site-title {
+    opacity: 0.0;
+}
+
+.navbar-brand {
+    height: 50px;
+    background-image: url(/wp-content/uploads/2016/11/AV_Logo_Gradient.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Sets nav background on home page to white */
+
+.navigation-wrapper .navigation {
+    background-color: #fff;
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
+}
 
 /* Sets nav background on home page to white */
 
