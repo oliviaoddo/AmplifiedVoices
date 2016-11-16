@@ -220,6 +220,7 @@ a.navbar-brand:focus {
 
 .navbar-brand {
     height: 50px;
+    width: 177px;
     background-image: url(/wp-content/uploads/2016/11/AV_Logo_Gradient.png);
     background-size: contain;
     background-repeat: no-repeat;
