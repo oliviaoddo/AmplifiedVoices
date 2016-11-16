@@ -12,7 +12,9 @@ Template: anaglyph-lite
 Version: 1.0.0
 */
 
+
 /*FONTS*/
+
 @font-face {
     font-family: Campton-Bold;
     src: url(fonts/Campton-Bold.otf);
@@ -38,20 +40,31 @@ Version: 1.0.0
     src: url(fonts/Roboto-Thin.ttf);
 }
 
+
 /*PATCHES*/
-.sep{
-    margin-bottom: 50px !important;
+
+.DesktopView {
+    display: block !important;
 }
 
+.MobileView {
+    display: none !important;
+}
+
+.sep {
+    margin-bottom: 0px !important;
+}
 
 .entry-content h2 {
     margin-bottom: 8px;
 }
+
 .ButtonPatcher {
     background-color: #fff;
     color: #ff5a59;
     border: none;
     margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 .getButtonSmallModeUniq {
@@ -75,13 +88,17 @@ Version: 1.0.0
     color: #3f3994;
 }
 
+.sarah {
+    margin-bottom: 50px;
+}
+
 .AboutTop h1 {
-	font-size: 64px;
+    font-size: 64px;
     font-weight: bold;
 }
 
 .AboutTop h5 {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 .smallMode {
@@ -93,7 +110,7 @@ Version: 1.0.0
 }
 
 .Rowling {
-	float: right;
+    float: right;
 }
 
 @media screen and (max-width:1023px) {
@@ -113,7 +130,6 @@ Version: 1.0.0
         display: none !important;
         ;
     }
-
     .homeBottom {
         margin-left: 20px;
         padding-top: 20px !important;
@@ -122,7 +138,14 @@ Version: 1.0.0
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .MobileView {
+        display: block !important;
+    }
+    .DesktopView {
+        display: none !important;
+    }
 }
+
 
 /*PATCH END*/
 
@@ -145,8 +168,8 @@ html {
 }
 
 button:focus {
-	outline: solid 1px #FFA71A !important;
-	border: dotted 3px #FFA71A !important;
+    outline: solid 1px #FFA71A !important;
+    border: dotted 3px #FFA71A !important;
 }
 
 .site .skip-link {
@@ -163,22 +186,31 @@ button:focus {
     height: auto;
 }
 
+
 /* changes focus border of newsletter subscription form */
-.site .site-main input[type="text"]:focus, .site .site-main input[type="email"]:focus, .site .site-main input[type="search"]:focus, .site .site-main input[type="password"]:focus, .site .site-main textarea:focus {
-	border-color: #A03594;
+
+.site .site-main input[type="text"]:focus,
+.site .site-main input[type="email"]:focus,
+.site .site-main input[type="search"]:focus,
+.site .site-main input[type="password"]:focus,
+.site .site-main textarea:focus {
+    border-color: #A03594;
 }
+
 
 /*HEADER*/
 
 a.navbar-brand {
-  border: dotted 1px #FFF;
+    border: dotted 1px #FFF;
 }
 
 a.navbar-brand:focus {
     border: dotted 1px #FF5A59;
 }
 
+
 /* Sets logo width and height */
+
 a.navbar-brand > img {
     width: 200px !important;
     height: 57px !important;
@@ -220,16 +252,21 @@ a.navbar-brand > img {
 
 
 /* Changes the nav items font weight and color on hover */
+
 #menu-av-menu > li > a:hover {
     color: #FF5A59 !important;
 }
 
+
 /* Nav items active styles */
+
 .navigation-wrapper .navigation .nav > li.current_page_item > a {
-  color: #FF5A59 !important;
- }
+    color: #FF5A59 !important;
+}
+
 
 /* Donate button styles */
+
 #menu-av-menu > li.donate-button > a {
     background: #FF5A59;
     border: dotted 3px #FF5A59;
@@ -241,13 +278,15 @@ a.navbar-brand > img {
 }
 
 #menu-av-menu > li.donate-button > a:focus {
-  border: dotted 3px #A03594;
+    border: dotted 3px #A03594;
 }
 
+
 /* Donate button active styles */
+
 #menu-av-menu > li.donate-button.current_page_item > a {
-  background-color: #A03594;
-  border: dotted 3px #A03594;
+    background-color: #A03594;
+    border: dotted 3px #A03594;
 }
 
 #menu-av-menu > li.donate-button.current_page_item > a:hover {
@@ -280,7 +319,7 @@ a.navbar-brand > img {
 .bioName {
     color: #a03594;
     display: inline;
-	margin: 0px 0px 40px 40px;
+    margin: 0px 0px 40px 40px;
 }
 
 .bioTitle {
@@ -291,7 +330,7 @@ a.navbar-brand > img {
 
 .bioDescription {
     color: #a03594;
-	margin: 15px 80px 10px 40px;
+    margin: 15px 80px 10px 40px;
 }
 
 #aboutBackground {
@@ -302,7 +341,7 @@ a.navbar-brand > img {
 
 .aboutTitle {
     color: #ffffff;
-	margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .aboutDesc {
@@ -314,7 +353,8 @@ a.navbar-brand > img {
 }
 
 .quoteBottom {
-    color: #3f3994;;
+    color: #3f3994;
+    ;
 }
 
 .fullWidthPhoto {
@@ -343,15 +383,12 @@ img .fullWidth {
     top: -100px;
 }
 
-
-.entry-summary{
+.entry-summary {
     padding-right: 20px !important;
     padding-bottom: 10px !important;
     padding-left: 20px !important;
-    padding-top:10px !important;
+    padding-top: 10px !important;
 }
-
-
 
 .container {
     margin: 0 !important;
@@ -360,24 +397,24 @@ img .fullWidth {
 }
 
 .aboutContainer {
-  padding: 80px 80px 160px 80px;
+    padding: 80px 80px 160px 80px;
 }
 
 .aboutContainer h2 {
-	margin-bottom: 120px;
+    margin-bottom: 0px;
 }
 
 .aboutContainer img {
-	margin-top: 30px;
-	margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .aboutContainerMiddle {
-	padding: 80px;
+    padding: 50px;
 }
 
 .aboutContainerBottom {
-	padding: 80px;
+    padding: 80px;
 }
 
 .subscriptionContainer {
@@ -390,7 +427,7 @@ img .fullWidth {
 
 #subscriptionButton {
     background-color: #943a92;
-	border: solid 3px transparent !important;
+    border: solid 3px transparent !important;
 }
 
 #subscriptionButton:hover {
@@ -398,8 +435,8 @@ img .fullWidth {
 }
 
 #subscriptionButton:focus {
-	outline: solid 1px #FFA71A !important;
-	border: dotted 3px #FFA71A !important;
+    outline: solid 1px #FFA71A !important;
+    border: dotted 3px #FFA71A !important;
 }
 
 h2 {
@@ -440,11 +477,11 @@ p span {
     left: 100px;
     width: 25%;
     color: #ff5a59;
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 .theFacts h1 {
-	color: #fff;
+    color: #fff;
 }
 
 .theFacts h3 {
@@ -460,23 +497,23 @@ button.theFacts {
 }
 
 .everyMonth {
-	margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .anually {
-	margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .runaway {
-	margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .common {
-	margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .resourcesBackground {
@@ -489,40 +526,39 @@ button.theFacts {
 }
 
 .resourcesBackground.issueContainer {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 .resourcesBackground.issueContainer h4 {
-	margin-top: 30px !important;
-	text-transform: none !important;
+    margin-top: 30px !important;
+    text-transform: none !important;
 }
 
 .resourcesBackground.issueContainer a {
-	color: #FFA71A;
+    color: #FFA71A;
 }
 
 .issueContainerTop {
-    padding: 80px;
+    padding: 40px;
     color: #4D4D4F;
-    text-align: center;
 }
 
 .issueContainerTop p {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .issueContainer {
-    padding: 80px;
-	color: #4D4D4F;
+    padding: 50px;
+    color: #4D4D4F;
 }
 
 .issueContainer h4 {
-	text-traansform: none !important;
-	margin: 0px !important;
+    text-traansform: none !important;
+    margin: 0px !important;
 }
 
 .issueContainer p {
-	margin: 0px;
+    margin: 0px;
 }
 
 .issueBlue {
@@ -538,18 +574,22 @@ button.theFacts {
 }
 
 .getInvolvedSub {
-	color: #A03594 !important;
+    color: #A03594 !important;
 }
 
 .getInvolvedContainer {
-	margin-top: -2px;
-	background-color: #a03594;
+    margin-top: -2px;
+    background-color: #a03594;
     color: #ffffff;
-   	padding: 80px;
+    padding: 80px;
+}
+
+.entry-content h4{
+    margin-bottom: 5px !important;
 }
 
 .donateDesc {
-	margin-top: 35px;
+    margin-top: 35px;
 }
 
 p.donateDesc {
@@ -577,8 +617,8 @@ button.involvedButton {
     background-color: #a03594;
     color: #fff;
     border: none;
-	margin-top: 0px;
-	margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 
 button.involvedButton:hover {
@@ -592,13 +632,12 @@ button.involvedButton:hover {
 }
 
 .volunteerContainer .col-md-6 {
-	padding: 40px;
-	width: 40%;
+    padding: 40px;
 }
 
 .volunteerContainer h2 {
-	margin-top: 40px;
-	margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 button.emailEvents {
@@ -612,98 +651,101 @@ button.emailEvents:hover {
     background-color: #FF5A59;
 }
 
+
 /* Events Page Changes */
 
 .blog-post-content.entry-summary > h2 > a,
 .post-header {
-	color: #3F3994;
+    color: #3F3994;
 }
 
 .blog-post-content.entry-summary h2 > a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .blog-post-content.entry-summary h2 > a:hover,
 .blog-post-content.entry-summary h2 > a:active {
-	color: #FF5A59;
+    color: #FF5A59;
 }
 
 .author > a,
 .post-author > a {
-	color: #000;
+    color: #000;
 }
 
 .author > a:hover,
 .post-author > a:hover {
-	text-decoration: none;
-	color: #FF5A59;
+    text-decoration: none;
+    color: #FF5A59;
 }
 
 .blog-post {
-  padding-top: 25px;
-	padding-left: 100px;
-	padding-right: 100px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+
 /* Cancels out Read More animation */
+
 .read-more {
-	padding-left: 2px;
+    padding-left: 2px;
 }
 
 .read-more > a:hover {
-	color: #FF5A59;
-	text-decoration: none;
+    color: #FF5A59;
+    text-decoration: none;
 }
 
 .blog-post > .entry-content > .post-footer {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .blog-post > .entry-content .icons,
 .blog-post > .entry-content .icons > a {
-	color: #4D4D4F;
+    color: #4D4D4F;
 }
 
 .blog-post > .entry-content .icons > a:hover {
-color:#FF5A59;
+    color: #FF5A59;
 }
 
 .post-comments > i,
 .post-comments > span,
 i.social_pinterest,
 i.social_googleplus {
-	display:none;
+    display: none;
 }
 
 .helpTop {
     position: absolute;
-	top: 7%;
+    top: 7%;
     left: 100px;
     width: 35%;
     color: #a03594;
 }
 
 .helptop.thefacts {
-	top: 3%;
+    top: 3%;
 }
 
 .helpTop h1 {
-	color: #a03594;
+    color: #a03594;
 }
 
 .helpTop h4 {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .donateContainer {
     background-color: #a03594;
     margin-top: -1px !important;
-	padding: 120px 600px 120px 80px;
+    padding: 120px 600px 120px 80px;
     color: #ffffff;
 }
 
 .donateContainer h2 {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .donateTop {
@@ -715,8 +757,8 @@ i.social_googleplus {
 }
 
 .donateTop h1 {
-	color: #3F3994;
-	font-size: 64px;
+    color: #3F3994;
+    font-size: 64px;
 }
 
 button.donateOnlineButton {
@@ -731,7 +773,7 @@ button.donateOnlineButton:hover {
 }
 
 button.donateOnlineButton:focus {
-	border: dotted 1px #FF5A59 !important;
+    border: dotted 1px #FF5A59 !important;
 }
 
 .homeImage {
@@ -741,68 +783,57 @@ button.donateOnlineButton:focus {
 .homeContainer {
     background-color: #ff5a59;
     color: #fff;
-	padding: 80px;
+    padding: 80px;
 }
 
 .homeContainer h5 {
-	padding-right: 20px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width:1024px) {
-	.homeContainer {
-		padding: 20px;
-	}
-
+    .homeContainer {
+        padding: 20px;
+    }
     .aboutContainer {
         padding: 20px;
     }
-
-    .involvedEventsContainer{
+    .involvedEventsContainer {
+        padding: 40px;
+    }
+    .volunteerContainer {
         padding: 20px;
     }
-
-
-    .volunteerContainer{
+    .getInvolvedContainer {
+        padding: 40px;
+    }
+    .donateContainer {
         padding: 20px;
     }
-
-    .getInvolvedContainer{
-        padding: 20px;
-    }
-
-    .donateContainer{
-        padding: 20px;
-    }
-
     .sponsorsContainer {
         padding: 20px;
     }
-
     .subscriptionContainer {
         padding: 20px;
     }
-
     .blog-post {
-    	padding: 20px;
+        padding: 20px;
     }
-
     .icons > a i {
-    	float: inherit !important;
+        float: inherit !important;
     }
 }
 
 @media screen and (max-width:1024px) {
-	.homeContainerBottom {
-		padding: 0px !important;
-	}
+    .homeContainerBottom {
+        padding: 0px !important;
+    }
 }
 
 @media screen and (max-width:1024px) {
-	.sponsorButton {
-		margin-bottom: 20px;
-    	margin-left: 15px;
-
-	}
+    .sponsorButton {
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
 }
 
 .homeContainer h5 {
@@ -812,7 +843,7 @@ button.donateOnlineButton:focus {
 button {
     margin-top: 50px;
     padding: 15px;
-	border: solid 3px transparent !important;
+    border: solid 3px transparent !important;
 }
 
 input[type=submit] {
@@ -822,7 +853,8 @@ input[type=submit] {
     border: none;
     color: white;
     padding: 10px;
- }
+}
+
 
 /*Changes button opacity to 1 */
 
@@ -831,8 +863,7 @@ input[type=submit] {
     opacity: 1.0 !important;
 }
 
-
-.blog-post-content{
+.blog-post-content {
     padding-left: 20px;
 }
 
@@ -844,7 +875,7 @@ button.planButton {
 
 button.planButton:hover {
     background-color: #3F3994;
-	color: #fff;
+    color: #fff;
 }
 
 .homeTop {
@@ -856,22 +887,22 @@ button.planButton:hover {
 }
 
 @media screen and (max-width:1225px) {
-	.homeTop {
-		top: 70px !important;
-	}
+    .homeTop {
+        top: 70px !important;
+    }
 }
 
 .homeTop h1 {
-	font-size: 64px;
-	font-weight: bold;
+    font-size: 64px;
+    font-weight: bold;
 }
 
 .homeTop h3 {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 h3.without {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 button.voiceButton {
@@ -907,7 +938,7 @@ span.heardTop {
 }
 
 span.heardTop h5 {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 button.getButton {
@@ -918,12 +949,12 @@ button.getButton {
 
 button.getButton:hover {
     background-color: #fff;
-	color: #3F3994;
+    color: #3F3994;
 }
 
 .homeContainerBottom {
     padding: 80px;
-	color: #3f3994;
+    color: #3f3994;
 }
 
 h4.without {
@@ -952,41 +983,43 @@ button.getButtonSmall {
     color: #a03594;
 }
 
+
 /* Sponsors page headline and subhead text */
+
 .sponsorsCopy {
-	background-color: #3F3994;
+    background-color: #3F3994;
     color: #fff;
     padding: 80px;
 }
 
 @media screen and (max-width:1024px) {
-	.sponsorsCopy {
-    	padding: 20px;
-	}
+    .sponsorsCopy {
+        padding: 20px;
+    }
 }
 
 .sponsorsCopy a:focus {
-	color: #FF5A59;
+    color: #FF5A59;
 }
 
 .sponsorsLogos {
-	padding: 80px;
+    padding: 80px;
 }
 
 @media screen and (max-width:1024px) {
-	.sponsorsLogos {
-    	padding: 20px;
-	}
+    .sponsorsLogos {
+        padding: 20px;
+    }
 }
 
 .sponsorsLogos img {
-	margin: 40px;
+    margin: 40px;
 }
 
 @media screen and (max-width:1024px) {
-	.sponsorsLogos img {
-    	margin: 20px;
-	}
+    .sponsorsLogos img {
+        margin: 20px;
+    }
 }
 
 h5.sponsors {
@@ -1053,10 +1086,10 @@ footer h5 {
     float: right !important;
 }
 
-@media screen and (min-width: 480px) and (max-width: 599px)	{
-	.footer-AV-logo {
-		float: left !important;
-	}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    .footer-AV-logo {
+        float: left !important;
+    }
 }
 
 .social-logo {
@@ -1068,9 +1101,9 @@ footer h5 {
 }
 
 @media (max-width: 997px) {
-.navigation-wrapper .navigation .navbar .navbar-collapse {
-    background-color: #ffffff;
-}
+    .navigation-wrapper .navigation .navbar .navbar-collapse {
+        background-color: #ffffff;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1083,20 +1116,21 @@ footer h5 {
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left,
+    .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
-  		position:relative;
-  		margin-top: 4px;
-  		display: block;
+        position: relative;
+        margin-top: 4px;
+        display: block;
     }
     .icon-bar {
-		background-color: #292422;
-	}
+        background-color: #292422;
+    }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -1116,12 +1150,12 @@ footer h5 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
+    .collapse.in {
         display: block !important;
     }
     nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapse.in,
     nav.primary-navigation.navbar-collapse.bs-navbar-collapse.navbar-right.collapsing {
-      overflow-x: hidden;
+        overflow-x: hidden;
     }
 }
 
@@ -1130,7 +1164,8 @@ footer h5 {
     font-size: 75%;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Campton-Bold !important;
 }
 
@@ -1139,6 +1174,8 @@ h3 {
     font-style: italic !important;
 }
 
-p, h5, h4 {
+p,
+h5,
+h4 {
     font-family: Roboto-Regular !important;
 }
