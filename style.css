@@ -283,6 +283,7 @@ a.navbar-brand:focus {
 
 .navigation-wrapper .navigation .nav > li.current_page_item > a {
     color: #FF5A59 !important;
+    font-weight: bold;
 }
 
 
