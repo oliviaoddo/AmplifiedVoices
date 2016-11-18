@@ -1001,6 +1001,10 @@ button.getButtonSmall {
     color: #a03594;
 }
 
+p.donateDesc {
+    line-height: 1em;
+}
+
 
 /* Sponsors page headline and subhead text */
 
