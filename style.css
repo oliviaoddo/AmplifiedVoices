@@ -221,7 +221,7 @@ a.navbar-brand:focus {
 }
 
 .site-title {
-    opacity: 0.0;
+    display: none;
 }
 
 .navbar-brand {
