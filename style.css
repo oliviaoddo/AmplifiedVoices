@@ -42,6 +42,9 @@ Version: 1.0.0
 
 
 /*PATCHES*/
+.BgC{
+    background-color: #3f3994;
+}
 
 .DesktopView {
     display: block !important;
@@ -999,10 +1002,6 @@ button.getButtonSmall {
 .sponsorsContainer {
     padding: 80px;
     color: #a03594;
-}
-
-p.donateDesc {
-    line-height: 1em;
 }
 
 
