@@ -78,13 +78,14 @@ Version: 1.0.0
 
 .colorCodeBlue {
     color: #443c93;
+	padding-bottom: 40px;
 }
 
 .AboutTop {
     position: absolute;
     top: 3%;
     left: 100px;
-    width: 25%;
+    width: 50%;
     color: #3f3994;
 }
 
@@ -554,7 +555,8 @@ button.theFacts {
 }
 
 .issueContainerTop {
-    padding: 40px;
+    padding: 80px 40px 80px 40px;
+	text-align: center;
     color: #4D4D4F;
 }
 
@@ -898,7 +900,7 @@ button.planButton:hover {
     position: absolute;
     top: 150px;
     left: 100px;
-    width: 35%;
+    width: 50%;
     color: #3F3994;
 }
 
