@@ -47,6 +47,10 @@ Version: 1.0.0
     color: #fff;
     padding: 20px;
 }
+.AboutSmall {
+    background-color: #3f3994;
+    color: #fff !important;
+}
 
 .DesktopView {
     display: block !important;
