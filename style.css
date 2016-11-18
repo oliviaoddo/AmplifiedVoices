@@ -174,7 +174,7 @@ button:focus {
 }
 
 .site .skip-link {
-    display: none;
+    opacity: 0;
 }
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
