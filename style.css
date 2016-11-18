@@ -708,6 +708,24 @@ button.emailEvents:hover {
     padding-right: 100px;
 }
 
+/*Contact form */
+
+#hugeit-contact-wrapper_3 .hugeit-contact-column-block {
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+#hugeit-contact-wrapper_3 > div > h3 {
+    position: relative;
+    display: block;
+    clear: both !important;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 22px !important;
+    line-height: 22px !important;
+    color: #FE5858 !important;
+    margin: 10px 0 15px 0 !important;
+}
 
 /* Cancels out Read More animation */
 
