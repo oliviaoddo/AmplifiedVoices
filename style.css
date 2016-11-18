@@ -42,8 +42,10 @@ Version: 1.0.0
 
 
 /*PATCHES*/
-.BgC{
-    background-color: #3f3994;
+.BgC {
+    background-color: #ff5a59;
+    color: #fff;
+    padding: 80px;
 }
 
 .DesktopView {
