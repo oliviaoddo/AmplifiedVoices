@@ -728,9 +728,10 @@ button.emailEvents:hover {
 
 /*Contact form */
 
-#hugeit-contact-wrapper_3 .hugeit-contact-column-block {
-    padding-right: 25%;
+.contactForm {
     padding-left: 25%;
+    padding-right: 25%;
+    color: #3f3994;
 }
 
 #hugeit-contact-wrapper_3 > div > h3 {
@@ -743,6 +744,13 @@ button.emailEvents:hover {
     line-height: 22px !important;
     color: #FE5858 !important;
     margin: 10px 0 15px 0 !important;
+}
+
+#hugeit-contact-wrapper_3 .buttons-block button.submit {
+    color: #FFFFFF !important;
+    background-color: #3f3994 !important;
+    border: 1px solid #3f3994 !important;
+    font-size: 1.3em;
 }
 
 /* Cancels out Read More animation */
