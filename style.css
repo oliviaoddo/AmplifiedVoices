@@ -42,6 +42,29 @@ Version: 1.0.0
 
 
 /*PATCHES*/
+img.aligncenter{
+    margin: 0px auto !important;
+}
+.BgC {
+    background-color: #3f3994;
+    color: #fff;
+    padding: 20px;
+}
+.AboutSmall {
+    background-color: #3f3994;
+    color: #fff !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.BannerSmall {
+    background-color: #3f3994;
+    color: #fff !important;
+    padding-top: 30px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-bottom: 30px !important;
+}
 
 .DesktopView {
     display: block !important;
@@ -78,13 +101,14 @@ Version: 1.0.0
 
 .colorCodeBlue {
     color: #443c93;
+	padding-bottom: 40px;
 }
 
 .AboutTop {
     position: absolute;
     top: 3%;
     left: 100px;
-    width: 25%;
+    width: 50%;
     color: #3f3994;
 }
 
@@ -173,7 +197,7 @@ button:focus {
 }
 
 .site .skip-link {
-    display: none;
+    opacity: 0;
 }
 
 .gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
@@ -210,13 +234,21 @@ a.navbar-brand:focus {
 
 
 /* Sets logo width and height */
-
-a.navbar-brand > img {
-    width: 200px !important;
-    height: 57px !important;
-    margin-top: -15px;
+.navbar-header {
+    padding: 10px;
 }
 
+.site-title {
+    display: none;
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 177px;
+    background-image: url(/wp-content/uploads/2016/11/AV_Logo_Gradient.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* Sets nav background on home page to white */
 
@@ -224,6 +256,13 @@ a.navbar-brand > img {
     background-color: #fff;
     padding-top: 15px !important;
     padding-bottom: 0px !important;
+}
+
+.navigation-wrapper .navigation .navbar .navbar-brand {
+    margin-top: 0px !important;
+	position: relative;
+	top: -10px;
+	left: 10px;
 }
 
 
@@ -262,6 +301,7 @@ a.navbar-brand > img {
 
 .navigation-wrapper .navigation .nav > li.current_page_item > a {
     color: #FF5A59 !important;
+    font-weight: bold;
 }
 
 
@@ -539,7 +579,8 @@ button.theFacts {
 }
 
 .issueContainerTop {
-    padding: 40px;
+    padding: 80px 40px 80px 40px;
+	text-align: center;
     color: #4D4D4F;
 }
 
@@ -685,6 +726,24 @@ button.emailEvents:hover {
     padding-right: 100px;
 }
 
+/*Contact form */
+
+#hugeit-contact-wrapper_3 .hugeit-contact-column-block {
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+#hugeit-contact-wrapper_3 > div > h3 {
+    position: relative;
+    display: block;
+    clear: both !important;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 22px !important;
+    line-height: 22px !important;
+    color: #FE5858 !important;
+    margin: 10px 0 15px 0 !important;
+}
 
 /* Cancels out Read More animation */
 
@@ -703,6 +762,7 @@ button.emailEvents:hover {
 
 .blog-post > .entry-content .icons,
 .blog-post > .entry-content .icons > a {
+    border: none;
     color: #4D4D4F;
 }
 
@@ -882,7 +942,7 @@ button.planButton:hover {
     position: absolute;
     top: 150px;
     left: 100px;
-    width: 35%;
+    width: 50%;
     color: #3F3994;
 }
 
@@ -1051,7 +1111,9 @@ footer p {
 }
 
 footer a {
+    padding-bottom: 3px;
     color: white;
+    border: dotted 1px #3F3994;
 }
 
 footer a:active {
@@ -1061,6 +1123,7 @@ footer a:active {
 footer a:focus {
     color: #FF5A59 !important;
     text-decoration: none;
+    border: dotted 1px #FF5A59;
 }
 
 footer a:hover {
