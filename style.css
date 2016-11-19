@@ -738,8 +738,6 @@ button.emailEvents:hover {
     position: relative;
     display: block;
     clear: both !important;
-    padding-right: 25%;
-    padding-left: 25%;
     font-size: 22px !important;
     line-height: 22px !important;
     color: #FE5858 !important;
@@ -751,6 +749,7 @@ button.emailEvents:hover {
     background-color: #3f3994 !important;
     border: 1px solid #3f3994 !important;
     font-size: 1.3em;
+    padding: 25px;
 }
 
 /* Cancels out Read More animation */
